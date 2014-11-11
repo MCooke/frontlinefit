@@ -26,6 +26,16 @@ module.exports = function( grunt ) {
 				tasks: '<%= tasks.scripts %>',
 			}	
 		},
+		connect: {
+			server: {
+				options: {
+					port: '8888',
+					target: 'http://localhost:8888',
+					appName: 'Google Chrome',
+					base: 'dist/',
+				}
+			}
+		},
 		scsslint: {
 			options: {
 				colorizeOutput: true,
@@ -64,7 +74,7 @@ module.exports = function( grunt ) {
 			},
 			pages: {
 				src: 'src/pages/*.hbs',
-				dest: 'dist/html/'
+				dest: 'dist/'
 			}		
 		},
 		uglify: {
@@ -91,7 +101,6 @@ module.exports = function( grunt ) {
 	grunt.loadNpmTasks( 'grunt-scss-lint' );
 	grunt.loadNpmTasks( 'grunt-contrib-sass' );
 	grunt.loadNpmTasks( 'grunt-contrib-cssmin' );
-	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.task.registerTask( 'styles', tasks.styles );
 
 	// Scripts stuff
@@ -99,9 +108,16 @@ module.exports = function( grunt ) {
 	grunt.loadNpmTasks( 'grunt-jscs' );
 	grunt.task.registerTask( 'scripts', tasks.scripts );
 
+	// Stuff stuff
+	grunt.loadNpmTasks( 'grunt-contrib-connect' );
+	grunt.loadNpmTasks( 'grunt-contrib-watch' );
+
 	// Big time compile
 	grunt.registerTask( 'massCompile', 'Mass compile task is used by NPM on install & deploy task', function() {
 		grunt.task.run( [ 'styles', 'templates', 'scripts' ] );
 	} );
+
+	grunt.registerTask( 'default', ['connect', 'watch'] );
+
 
 };
