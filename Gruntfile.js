@@ -14,7 +14,7 @@ module.exports = function( grunt ) {
 		tasks: tasks,
 		watch: {
 			templates: {
-				files: ['src/pages/*.hbs', 'src/partials/*.hbs', 'src/configs/*.json', 'src/layouts/*.json'],
+				files: ['src/pages/*.hbs', 'src/partials/*.hbs', 'src/layouts/*.hbs', 'src/configs/*.json'],
 				tasks: '<%= tasks.templates %>',
 			},
 			styles: {
