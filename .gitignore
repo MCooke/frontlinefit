@@ -4,4 +4,3 @@ node_modules
 .npm_debug
 npm-debug.log
 .sass-cache
-dist

@@ -18,11 +18,11 @@ module.exports = function( grunt ) {
 				tasks: '<%= tasks.templates %>',
 			},
 			styles: {
-				files: 'src/styles/**/*.scss',
+				files: 'src/styles/*.scss',
 				tasks: '<%= tasks.styles %>',
 			},
 			scripts: {
-				files: 'src/scripts/**/*.js',
+				files: 'src/scripts/*.js',
 				tasks: '<%= tasks.scripts %>',
 			}	
 		},
@@ -53,7 +53,7 @@ module.exports = function( grunt ) {
 			},			
 			dist: {
 				files: {
-					'src/styles/main.css' : 'src/styles/default.scss',
+					'src/styles/main.css' : 'src/styles/main.scss',
 				}
 			}
 		},
@@ -78,8 +78,10 @@ module.exports = function( grunt ) {
 			}		
 		},
 		uglify: {
-			files: {
-				'dist/js/general.js': 'src/scripts/*.js',
+			all_files: {
+				files: {
+					'dist/js/general.min.js': ['src/scripts/general.js'],
+				}
 			}
 		},
 		jscs: {
@@ -111,11 +113,6 @@ module.exports = function( grunt ) {
 	// Stuff stuff
 	grunt.loadNpmTasks( 'grunt-contrib-connect' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
-
-	// Big time compile
-	grunt.registerTask( 'massCompile', 'Mass compile task is used by NPM on install & deploy task', function() {
-		grunt.task.run( [ 'styles', 'templates', 'scripts' ] );
-	} );
 
 	grunt.registerTask( 'default', ['connect', 'watch'] );
 
