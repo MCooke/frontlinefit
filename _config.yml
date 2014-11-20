@@ -1,5 +1,3 @@
-source: dist/
-
-destination: _site/
-
 baseurl: /frontlinefit
+
+exclude: ['node_modules', 'resource']
