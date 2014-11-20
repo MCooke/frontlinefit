@@ -32,7 +32,7 @@ module.exports = function( grunt ) {
 					port: '8888',
 					target: 'http://localhost:8888',
 					appName: 'Google Chrome',
-					base: 'dist/',
+					base: '.',
 				}
 			}
 		},
@@ -60,7 +60,7 @@ module.exports = function( grunt ) {
 		cssmin: {
 			combine: {
 				files: {
-					'dist/css/main.min.css': 'src/styles/main.css',
+					'css/main.min.css': 'src/styles/main.css',
 				}
 			}
 		},
@@ -74,13 +74,13 @@ module.exports = function( grunt ) {
 			},
 			pages: {
 				src: 'src/pages/*.hbs',
-				dest: 'dist/'
+				dest: '.'
 			}		
 		},
 		uglify: {
 			all_files: {
 				files: {
-					'dist/js/general.min.js': ['src/scripts/general.js'],
+					'js/general.min.js': ['src/scripts/general.js'],
 				}
 			}
 		},
