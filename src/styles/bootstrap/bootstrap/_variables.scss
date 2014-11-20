@@ -12,18 +12,18 @@ $bootstrap-sass-asset-helper: (twbs-font-path("") != unquote('twbs-font-path("")
 //
 //## Gray and brand colors for use across Bootstrap.
 
-$gray-base:              #000 !default;
-$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
-$gray-dark:              lighten($gray-base, 20%) !default;   // #333
-$gray:                   lighten($gray-base, 33.5%) !default; // #555
-$gray-light:             lighten($gray-base, 46.7%) !default; // #777
-$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+$gray-base:              $grey500 !default;
+$gray-darker:            $grey800 !default; // #222
+$gray-dark:              $grey600 !default;   // #333
+$gray:                   $grey400 !default; // #555
+$gray-light:             $grey300 !default; // #777
+$gray-lighter:           $grey100 !default; // #eee
 
-$brand-primary:         darken(#428bca, 6.5%) !default;
-$brand-success:         #5cb85c !default;
-$brand-info:            #5bc0de !default;
-$brand-warning:         #f0ad4e !default;
-$brand-danger:          #d9534f !default;
+$brand-primary:         $amber400 !default;
+$brand-success:         $blue400 !default;
+$brand-info:            $lightBlue400 !default;
+$brand-warning:         $orange500 !default;
+$brand-danger:          $red800 !default;
 
 
 //== Scaffolding
@@ -31,9 +31,9 @@ $brand-danger:          #d9534f !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #fff !default;
+$body-bg:               $gray-dark !default;
 //** Global text color on `<body>`.
-$text-color:            $gray-dark !default;
+$text-color:            rgba(255, 255, 255, 0.85) !default;
 
 //** Global textual link color.
 $link-color:            $brand-primary !default;
@@ -73,7 +73,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 $headings-font-family:    inherit !default;
 $headings-font-weight:    500 !default;
 $headings-line-height:    1.1 !default;
-$headings-color:          inherit !default;
+$headings-color:          $text-color !default;
 
 
 //== Iconography
@@ -362,15 +362,15 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             #777 !default;
-$navbar-default-bg:                #f8f8f8 !default;
+$navbar-default-color:             $text-color !default;
+$navbar-default-bg:                $gray-darker !default;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
-$navbar-default-link-color:                #777 !default;
-$navbar-default-link-hover-color:          #333 !default;
+$navbar-default-link-color:                $text-color !default;
+$navbar-default-link-hover-color:          $text-color !default;
 $navbar-default-link-hover-bg:             transparent !default;
-$navbar-default-link-active-color:         #555 !default;
+$navbar-default-link-active-color:         $text-color !default;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
 $navbar-default-link-disabled-color:       #ccc !default;
 $navbar-default-link-disabled-bg:          transparent !default;
@@ -484,8 +484,8 @@ $pager-disabled-color:                 $pagination-disabled-color !default;
 
 $jumbotron-padding:              30px !default;
 $jumbotron-color:                inherit !default;
-$jumbotron-bg:                   $gray-lighter !default;
-$jumbotron-heading-color:        inherit !default;
+$jumbotron-bg:                   $gray-darker !default;
+$jumbotron-heading-color:        $brand-primary !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 
 
