@@ -18,7 +18,7 @@ module.exports = function( grunt ) {
 				tasks: '<%= tasks.templates %>',
 			},
 			styles: {
-				files: 'src/styles/*.scss',
+				files: 'src/styles/**/*',
 				tasks: '<%= tasks.styles %>',
 			},
 			scripts: {
@@ -47,10 +47,7 @@ module.exports = function( grunt ) {
 				'src/styles/*.scss',
 			]
 		},
-		sass: {
-			options: {
-				sourcemap: 'none'
-			},			
+		sass: {		
 			dist: {
 				files: {
 					'src/styles/main.css' : 'src/styles/main.scss',
