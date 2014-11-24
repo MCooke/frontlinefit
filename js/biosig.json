@@ -1,0 +1,36 @@
+{
+	"answers": {
+		"chin": {
+			"a": 1,
+			"b": 1,
+			"c": 1	
+		},
+		"cheek": {
+			"a": 1,
+			"b": 1,
+			"c": 1	
+		},
+		"pec": {
+			"a": 2,
+			"b": 2,
+			"c": 2,
+			"pairs": {
+				"thing": 4
+			}
+		},
+		"thing": {
+			"a": 3,
+			"b": 2,
+			"c": 1,
+			"pairs": {
+				"pec": 4
+			}
+		}
+	},
+	"content": {
+		"1": "this is some content",
+		"2": "this is some more content",
+		"3": "this is even more content content content",
+		"4": "Paired content"
+	}
+}
