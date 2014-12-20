@@ -52,4 +52,27 @@
 @import "./bootstrap/bootstrap/responsive-utilities";
 
 
+.trainer_name{
+	font-size: 4em;
+}
+
+.trainer_stat-image{
+	height: 300px;
+	background-repeat: no-repeat;
+	@include center-block();
+}
+
+.trainer_stat-nick{
+	position: relative;
+	top: -15px;
+	font-size: 24px;
+}
+
+@media (min-width: $screen-sm) {
+	.trainer_stat-image{
+		float: right;
+		margin: auto;
+		display: inline-block;
+	}
+}
 

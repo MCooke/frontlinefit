@@ -1,0 +1,35 @@
+---
+title: Frontline Fit
+trainer_name: Nik Dodd
+trainer_nick: Bane
+trainer_image: http://placehold.it/300x300
+trainer_age: 27
+trainer_bodyfat: 8
+trainer_height: 5.8
+trainer_weight: 78
+trainer_special: Anything related to speed, strength and power development with an emphasis on sport specific conditioning then Nik’s your guy. His 3 x body weight dead lift and 2.5 x body weight back squat pretty much say’s it all.
+trainer_quote: Speed, Strength, Power
+---
+
+{% include _header.html %}
+
+<section class="container">
+	<div class="row trainer">
+		<div class="col-xs-12 col-sm-6">
+			<h1 class="trainer_name text-uppercase">{{page.trainer_name}}</h1>
+			<span class="trainer_stat trainer_stat-nick">"{{page.trainer_nick}}"</span>
+		</div>
+		<img class="trainer_stat trainer_stat-image center-block img-rounded" src='{{page.trainer_image}}'></span>
+		<span class="h3 trainer_stat col-xs-6 col-sm-3 col-md-4"><small>Age:</small> {{page.trainer_age}}</span>
+		<span class="h3 trainer_stat col-xs-6 col-sm-3 col-md-4 text-right"><small>Body Fat:</small> {{page.trainer_bodyfat}}%</span>
+		<span class="h3 trainer_stat col-xs-6 col-sm-3 col-md-4"><small>Height:</small> {{page.trainer_height}}</span>
+		<span class="h3 trainer_stat col-xs-6 col-sm-3 col-md-4 text-right"><small>Weight:</small> {{page.trainer_weight}}kg</span>
+		<p class="trainer_stat lead col-xs-12 col-sm-8">{{page.trainer_special}}</p>		
+	</div>
+</section>
+
+{% include _quote.html image='http://lorempixel.com/1200/300/sports/' quote=page.trainer_quote %}
+
+
+
+{% include _footer.html %}

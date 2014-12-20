@@ -883,7 +883,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: rgba(255, 255, 255, 0.85);
@@ -964,7 +964,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: "Fugaz One", cursive;
   font-weight: 500;
   line-height: 1.1;
   color: rgba(255, 255, 255, 0.85); }
@@ -990,7 +990,8 @@ h1, .h1,
 h2, .h2,
 h3, .h3 {
   margin-top: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  text-transform: uppercase; }
   h1 small,
   h1 .small, .h1 small,
   .h1 .small,
@@ -4785,7 +4786,7 @@ button.close {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -4880,7 +4881,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857;
@@ -5368,5 +5369,25 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.trainer_name {
+  font-size: 4em; }
+
+.trainer_stat-image {
+  height: 300px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.trainer_stat-nick {
+  position: relative;
+  top: -15px;
+  font-size: 24px; }
+
+@media (min-width: 768px) {
+  .trainer_stat-image {
+    float: right;
+    margin: auto;
+    display: inline-block; } }
 
 /*# sourceMappingURL=main.css.map */
