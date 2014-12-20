@@ -58,6 +58,9 @@ module.exports = function( grunt ) {
 		},
 		uglify: {
 			all_files: {
+				options: {
+					beautify: true,
+				},
 				files: {
 					'js/general.min.js': ['src/scripts/general.js'],
 				}

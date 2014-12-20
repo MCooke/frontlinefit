@@ -1,0 +1,54 @@
+{
+	"answers": {
+		"1tab": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"2tab": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"3tab": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"4tab": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"5tab": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"6tab": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"7tab": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+	},
+	"content": {
+		"0": " ",
+		"1": "Many people cannot understand why they are always tired, or are not getting significant muscle and fat loss results from their hard work training. The solution is to achieve adequate stomach acid for digestion in order to break down and absorb essential protein and nutrients (HCL). <br/> Many people think gastric stress is normal. It is not. A strangely common misconception is that Westerners have too much stomach acid. This is rarely true! <br/> A more common problem is having much too little stomach acid for appropriate digestion, which produces gastric stress and can greatly increase your risk of stomach cancer. A serious but common problem is that because low stomach acid leads to impaired digestion, it is often misdiagnosed as having too much stomach acid. This is because when the stomach does not empty correctly, partly digested carbohydrates and proteins that have started to ferment in the stomach will back up into the esophagus—an uncomfortable problem that is interpreted by uninformed individuals and physicians as too much stomach acid. <br/><br/>Side note: Age—your stomach’s ability to produce HCL decreases by about 1 percent every year, meaning that by age 70, your HCL is 70 percent lower than when you were born.<br/><br/>Indirect symptoms of low stomach acid include the lack of results from training, inability to lose fat despite following a fat loss protocol, and always being tired. Symptoms that are directly related to low HCL include the following:<br/><ol><li>Belching, bloating, or “acid reflux” after eating</li><li>Indigestion and constipation because food is not being digested properly</li><li>Skin conditions such as acne</li><li>Vertical ridging on the nails because of inability to absorb nutrients from food</li><li>Leg and foot cramps because you are not absorbing minerals</li><li>Chronic injuries due to poor amino acid status and inability to restore tissue</li><li>Food allergies and asthma</li><li>Gallstones</li><li>Poor cognitive function and the onset of dementia</li></ol><br/><br/>Low bone mineral density and osteoporosis<br/><br/>To do the HCL test, you were told to take HCL using a dose of 200 mg capsules from betaine HCL because betaine is known to stimulate protein synthesis and support athletic performance. The supplement we use is Digest Force and it contains this 200 mg dose of HCL along with pancreatic enzymes to support elevated nutrient absorption<br/><br/>In the middle of your meals, your were to take one 200 mg dose of HCL. The response you were looking for is a warm sensation in your stomach, like when you have just drank a cup of very hot tea.<br/><br/>At each subsequent meal, you increased the dose of HCL by one capsule until you could feel the warmth in your stomach which according to you was at (INSERT DOSE). The dose that produces a warm sensation indicates the degree of HCL deficiency (low stomach acid) that you have. If you need all seven capsules, you have severely low stomach acid—that is, your body should be producing nearly 1400 mg of HCL on its own, but isn’t. If you need just one capsule, you know your stomach is not producing quite enough acid, and now is the time to prevent a serious problem from developing.<br/><br/>To treat low stomach acid, identify the amount of HCL needed to produce the warm sensation (Which for you is INSERT DOSE), subtract one capsule (200 mg) from that dose and take that amount at every meal.  Smaller meals might require less supplemental HCL and larger meals might require more (NOTE - do not exceed your maximum dose).<br/><br/>Once you start HCL therapy, you should immediately notice changes like a decrease in bloating, belching, and less indigestion. After a time, you will have better results from training particularly if you your diet is optimal. You will also likely find that HCL therapy will improve your sleep because your body is beginning to absorb all the minerals and vitamins it needs, which will affect your hormone and neurotransmitter levels. Not only will you no longer be deficient in nutrients that help with energy and give you stamina, but sleep will be more restorative. The combination will support body composition and fat loss.<br/><br/>Better digestion and absorption of protein and nutrients will support protein synthesis and the development of lean body mass, while helping you avoid deficiencies that can cause poor health and hinder fat loss attempts."
+	},
+	"nextQuestions": {
+		"milk": "Milk",
+		"eggs": "Eggs",
+		"peanuts": "Peanuts",
+		"treeNuts": "Tree nuts (such as almonds, cashews, walnuts)",
+		"fish": "Fish (such as bass, cod, flounder)",
+		"shellfish": "Shellfish (such as crab, lobster, shrimp)",
+		"soy": "Soy",
+		"wheat": "Wheat",
+		"none": "None"
+	}
+}

@@ -6,6 +6,7 @@
 	<title></title>
 	<meta name="description" content="Front line fit">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Fugaz+One|Oxygen:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/frontlinefit/css/main.min.css">
 </head>
 <body>
@@ -26,10 +27,18 @@
 				<li><a href="#">Personal Training</a></li>
 				<li><a href="#">Online Training</a></li>
 				<li><a href="#">Community</a></li>
-				<li><a href="#">About</a></li>
+				<li><a href="aboutTrainer.html">About</a></li>
 			</ul>
 		</div>
 	</nav>
+
+<style type="text/css">
+	
+	.tableHeader {
+		margin-top: 1em;	
+	}
+
+</style>
 <section class="container">
 
 	<p>The BioSignature is designed to assess and create protocols of which include information about the following:</p>
@@ -50,9 +59,11 @@
 		<li>Body Composition (Body Fat/Muscle Mass)</li>
 	</ul>
 
+	<p id="bioSigOutput"></p>
+
 	<form>
 		<table class="table">
-			<tr>
+			<tr class="tableHeader">
 				<th>Site</th>
 				<th>A</th>
 				<th>B</th>
@@ -60,27 +71,327 @@
 			</tr>
 			<tr>
 				<td>Chin</td>
-				<td><input class="radio" type="radio" name="a" value="chin"></td>
-				<td><input class="radio" type="radio" name="b" value="chin"></td>
-				<td><input class="radio" type="radio" name="c" value="chin"></td>
+				<td><input class="radio" type="radio" name="a" value="1"></td>
+				<td><input class="radio" type="radio" name="b" value="1"></td>
+				<td><input class="radio" type="radio" name="c" value="1"></td>
 			</tr>
 			<tr>
 				<td>Cheek</td>
-				<td><input class="radio" type="radio" name="a" value="cheek"></td>
-				<td><input class="radio" type="radio" name="b" value="cheek"></td>
-				<td><input class="radio" type="radio" name="c" value="cheek"></td>
+				<td><input class="radio" type="radio" name="a" value="2"></td>
+				<td><input class="radio" type="radio" name="b" value="2"></td>
+				<td><input class="radio" type="radio" name="c" value="2"></td>
 			</tr>
 			<tr>
 				<td>Pec</td>
-				<td><input class="radio" type="radio" name="a" value="pec"></td>
-				<td><input class="radio" type="radio" name="b" value="pec"></td>
-				<td><input class="radio" type="radio" name="c" value="pec"></td>
+				<td><input class="radio" type="radio" name="a" value="3"></td>
+				<td><input class="radio" type="radio" name="b" value="3"></td>
+				<td><input class="radio" type="radio" name="c" value="3"></td>
 			</tr>
 			<tr>
-				<td>Thing</td>
-				<td><input class="radio" type="radio" name="a" value="thing"></td>
-				<td><input class="radio" type="radio" name="b" value="thing"></td>
-				<td><input class="radio" type="radio" name="c" value="thing"></td>
+				<td>Triceps	</td>
+				<td><input class="radio" type="radio" name="a" value="4"></td>
+				<td><input class="radio" type="radio" name="b" value="4"></td>
+				<td><input class="radio" type="radio" name="c" value="4"></td>
+			</tr>
+			<tr>
+				<td>Subscapularis</td>
+				<td><input class="radio" type="radio" name="a" value="5"></td>
+				<td><input class="radio" type="radio" name="b" value="5"></td>
+				<td><input class="radio" type="radio" name="c" value="5"></td>
+			</tr>
+			<tr>
+				<td>Midaxcillary</td>
+				<td><input class="radio" type="radio" name="a" value="6"></td>
+				<td><input class="radio" type="radio" name="b" value="6"></td>
+				<td><input class="radio" type="radio" name="c" value="6"></td>
+			</tr>
+			<tr>
+				<td>Iliac Crest</td>
+				<td><input class="radio" type="radio" name="a" value="7"></td>
+				<td><input class="radio" type="radio" name="b" value="7"></td>
+				<td><input class="radio" type="radio" name="c" value="7"></td>
+			</tr>
+			<tr>
+				<td>Umbilicus</td>
+				<td><input class="radio" type="radio" name="a" value="8"></td>
+				<td><input class="radio" type="radio" name="b" value="8"></td>
+				<td><input class="radio" type="radio" name="c" value="8"></td>
+			</tr>
+			<tr>
+				<td>Knee</td>
+				<td><input class="radio" type="radio" name="a" value="9"></td>
+				<td><input class="radio" type="radio" name="b" value="9"></td>
+				<td><input class="radio" type="radio" name="c" value="9"></td>
+			</tr>
+			<tr>
+				<td>Calves</td>
+				<td><input class="radio" type="radio" name="a" value="10"></td>
+				<td><input class="radio" type="radio" name="b" value="10"></td>
+				<td><input class="radio" type="radio" name="c" value="10"></td>
+			</tr>
+			<tr>
+				<td>Quadricep</td>
+				<td><input class="radio" type="radio" name="a" value="11"></td>
+				<td><input class="radio" type="radio" name="b" value="11"></td>
+				<td><input class="radio" type="radio" name="c" value="11"></td>
+			</tr>
+			<tr>
+				<td>Hamstring</td>
+				<td><input class="radio" type="radio" name="a" value="12"></td>
+				<td><input class="radio" type="radio" name="b" value="12"></td>
+				<td><input class="radio" type="radio" name="c" value="12"></td>
+			</tr>
+			<tr class="tableHeader">
+				<th colspan="4">Zinc test</th>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="d" value="1">No taste</td>
+				<td><input class="radio" type="radio" name="d" value="2">Mild taste</td>
+				<td><input class="radio" type="radio" name="d" value="3">Strong taste</td>
+			</tr>
+			<tr class="tableHeader">
+				<th colspan="4">HCL</th>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="e" value="1">1 tab (200mg)</td>
+				<td><input class="radio" type="radio" name="e" value="2">2 tab (400mg)</td>
+				<td><input class="radio" type="radio" name="e" value="3">3 tab (600mg)</td>
+				<td><input class="radio" type="radio" name="e" value="4">4 tab (800mg)</td>
+				<td><input class="radio" type="radio" name="e" value="5">5 tab (1000mg)</td>
+				<td><input class="radio" type="radio" name="e" value="6">6 tab (1200mg)</td>
+				<td><input class="radio" type="radio" name="e" value="7">7 tab (1400mg)</td>
+			</tr>
+			<tr class="tableHeader">
+				<th colspan="4">Food allergies</th>
+			</tr>
+			<tr>
+				<td><input class="checkbox" type="checkbox" name="f" value="1">Milk</td>
+				<td><input class="checkbox" type="checkbox" name="f" value="2">Eggs</td>
+				<td><input class="checkbox" type="checkbox" name="f" value="3">Peanuts</td>
+				<td><input class="checkbox" type="checkbox" name="f" value="4">Tree nuts (such as almonds cashews walnuts)</td>
+				<td><input class="checkbox" type="checkbox" name="f" value="5">Fish (such as bass, cod, flounder)</td>
+				<td><input class="checkbox" type="checkbox" name="f" value="6">Shellfish (such as crab, lobster, shrimp)</td>
+				<td><input class="checkbox" type="checkbox" name="f" value="7">Soy</td>
+				<td><input class="checkbox" type="checkbox" name="f" value="8">Wheat</td>
+				<td><input class="checkbox" type="checkbox" name="f" value="9">None</td>
+			</tr>
+			<tr class="tableHeader">
+				<th colspan="4">Stool</th>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="ff" value="1">Once per week</td>
+				<td><input class="radio" type="radio" name="ff" value="2">A couple of times per week</td>
+				<td><input class="radio" type="radio" name="ff" value="3">Once per day (any time)</td>
+				<td><input class="radio" type="radio" name="ff" value="4">Once in the morning &amp; once at night</td>
+				<td><input class="radio" type="radio" name="ff" value="5">More than twice per day</td>
+			</tr>
+			<tr class="tableHeader">
+				<th colspan="4">Stool experience</th>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="gg" value="1">I'm regularly constipated</td>
+				<td><input class="radio" type="radio" name="gg" value="2">Sometimes I'm constipated</td>
+				<td><input class="radio" type="radio" name="gg" value="3">I'm rarely constipated</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>(Scale of 1 - 10)<br/>1-3 = very low<br/>4-7 = moderate<br/>8-10 = very high</th>
+				<th>Psychological/Emotional<br/>(Taking into consideration work and relationships)</th>
+				<th>Physical Stress (Taking into consideration and job description and physical exercise volume)</th>
+				<th>Overall stress</th>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="g" value="1">1-3</td>
+				<td><input class="radio" type="radio" name="g" value="2">4-7</td>
+				<td><input class="radio" type="radio" name="g" value="3">8-10</td>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="h" value="1">1-3</td>
+				<td><input class="radio" type="radio" name="h" value="2">4-7</td>
+				<td><input class="radio" type="radio" name="h" value="3">8-10</td>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="i" value="1">1-3</td>
+				<td><input class="radio" type="radio" name="i" value="2">4-7</td>
+				<td><input class="radio" type="radio" name="i" value="3">8-10</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Energy</th>
+			</tr>
+			<tr>
+				<td>Morning energy</td>
+				<td><input class="radio" type="radio" name="j" value="1">Low</td>
+				<td><input class="radio" type="radio" name="j" value="2">Moderate</td>
+				<td><input class="radio" type="radio" name="j" value="3">Mixed</td>
+				<td><input class="radio" type="radio" name="j" value="4">Wired</td>
+			</tr>
+			<tr>
+				<td>Mid day energy</td>
+				<td><input class="radio" type="radio" name="k" value="1">Low</td>
+				<td><input class="radio" type="radio" name="k" value="2">Moderate</td>
+				<td><input class="radio" type="radio" name="k" value="3">Mixed</td>
+				<td><input class="radio" type="radio" name="k" value="4">Wired</td>
+			</tr>
+			<tr>
+				<td>Night time energy</td>
+				<td><input class="radio" type="radio" name="l" value="1">Low</td>
+				<td><input class="radio" type="radio" name="l" value="2">Moderate</td>
+				<td><input class="radio" type="radio" name="l" value="3">Mixed</td>
+				<td><input class="radio" type="radio" name="l" value="4">Wired</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Water</th>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="m" value="1">None</td>
+				<td><input class="radio" type="radio" name="m" value="2">1-2 cups</td>
+				<td><input class="radio" type="radio" name="m" value="3">3-5 cups</td>
+				<td><input class="radio" type="radio" name="m" value="4">2-3 litres (6-9cups)</td>
+				<td><input class="radio" type="radio" name="m" value="5">4-5 litres (10 Cups)</td>
+				<td><input class="radio" type="radio" name="m" value="6">More than 5 litres (11+ Cups)</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Water quliaty</th>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="n" value="1">Tap</td>
+				<td><input class="radio" type="radio" name="n" value="2">Bottled/filtered</td>
+				<td><input class="radio" type="radio" name="n" value="3">Mixed</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Diet Quality <br/>(Perceived Diet 1-10) <br/>1-3 = Low/Poor<br/>4-7 = Average/Mixed<br/>8-10 = High/Good</th>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="ii" value="1">1-3</td>
+				<td><input class="radio" type="radio" name="ii" value="2">4-7</td>
+				<td><input class="radio" type="radio" name="ii" value="3">8-10</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Breakfast type</th>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="o" value="1">Typical western breakfast (toast, cereal, pancakes, baked goods)</td>
+				<td><input class="radio" type="radio" name="o" value="2">Fruit or Juice</td>
+				<td><input class="radio" type="radio" name="o" value="3">Meat, eggs and/or Nut</td>
+				<td><input class="radio" type="radio" name="o" value="4">Nothing until later</td>
+				<td><input class="radio" type="radio" name="o" value="5">Coffee or Tea only</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Alchohol consumption</th>
+			</tr>
+			<tr>
+				<td><input class="radio" type="radio" name="p" value="1">None</td>
+				<td><input class="radio" type="radio" name="p" value="2">Occasionally on special occasions but don't get drunk (1-2 glass)</td>
+				<td><input class="radio" type="radio" name="p" value="3">A few drinks at the end of the week (3-5 glasses)</td>
+				<td><input class="radio" type="radio" name="p" value="4">One drink at the end of my day - most days (1 glass per day)</td>
+				<td><input class="radio" type="radio" name="p" value="5">Weekend only - to get drunk (no limit on certain days)</td>
+				<td><input class="radio" type="radio" name="p" value="6">Weekdays and weekends - both to get drunk (no limit for any day)</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Meal frequency/Snack frequency</th>
+			</tr>
+			<tr>
+				<td>TO DO</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Estrogen analysis</th>
+			</tr>
+			<tr>
+				<td>Use of non organic creams/soaps/gels/make up</td>
+				<td><input class="radio" type="radio" name="v" value="1">Low</td>
+				<td><input class="radio" type="radio" name="v" value="2">Moderate</td>
+				<td><input class="radio" type="radio" name="v" value="3">High</td>
+			</tr>
+			<tr>
+				<td>Soy intake per week</td>
+				<td><input class="radio" type="radio" name="w" value="1">Low</td>
+				<td><input class="radio" type="radio" name="w" value="2">Moderate</td>
+				<td><input class="radio" type="radio" name="w" value="3">High</td>
+			</tr>
+			<tr>
+				<td>Showers per day</td>
+				<td><input class="radio" type="radio" name="x" value="1">Low</td>
+				<td><input class="radio" type="radio" name="x" value="2">Moderate</td>
+				<td><input class="radio" type="radio" name="x" value="3">High</td>
+			</tr>
+			<tr>
+				<td>Contact with chemicals and products</td>
+				<td><input class="radio" type="radio" name="y" value="1">Low</td>
+				<td><input class="radio" type="radio" name="y" value="2">Moderate</td>
+				<td><input class="radio" type="radio" name="y" value="3">High</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Heavy resistance training (1-5 REPS)</th>
+			</tr>
+			<tr>
+				<td>Sessions per week</td>
+				<td><input class="radio" type="radio" name="z" value="1">None</td>
+				<td><input class="radio" type="radio" name="z" value="2">1-2</td>
+				<td><input class="radio" type="radio" name="z" value="3">3-5</td>
+				<td><input class="radio" type="radio" name="z" value="4">6+</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Cardio (aerobic activity)</th>
+			</tr>
+			<tr>
+				<td>Sessions per week</td>
+				<td><input class="radio" type="radio" name="aa" value="1">None</td>
+				<td><input class="radio" type="radio" name="aa" value="2">1-2</td>
+				<td><input class="radio" type="radio" name="aa" value="3">3-5</td>
+				<td><input class="radio" type="radio" name="aa" value="4">6+</td>
+			</tr>
+			<tr class="tableHeader">
+				<th>Sleep</th>
+			</tr>
+			<tr>
+				<td>Hours per day</td>
+				<td><input class="radio" type="radio" name="bb" value="1">1-2</td>
+				<td><input class="radio" type="radio" name="bb" value="2">3-4</td>
+				<td><input class="radio" type="radio" name="bb" value="3">4-6</td>
+				<td><input class="radio" type="radio" name="bb" value="4">7-8</td>
+				<td><input class="radio" type="radio" name="bb" value="4">8+</td>
+			</tr>
+			<tr>
+				<td>How long does it take you to switch off</td>
+				<td><input class="radio" type="radio" name="cc" value="1">No problem</td>
+				<td><input class="radio" type="radio" name="cc" value="2">takes 30 mins</td>
+				<td><input class="radio" type="radio" name="cc" value="3">takes 1 hour</td>
+				<td><input class="radio" type="radio" name="cc" value="4">I usually have to watch TV or read a book until I feel tired so could be 15 mins or 2 hours</td>
+				<td><input class="radio" type="radio" name="cc" value="5">it takes me longer than 2 hours to switch off</td>
+			</tr>
+			<tr>
+				<td>Quality of sleep</td>
+				<td><input class="radio" type="radio" name="dd" value="1">Wake up once for the toilet.</td>
+				<td><input class="radio" type="radio" name="dd" value="2">Wake up more than once for the toilet.</td>
+				<td><input class="radio" type="radio" name="dd" value="3">Wake up to check the new baby who might be crying</td>
+				<td><input class="radio" type="radio" name="dd" value="4">Wake up for no reason 1-2 hours after I fall to sleep.</td>
+				<td><input class="radio" type="radio" name="dd" value="5">Wake up around 3-4 hours after I have been to sleep.</td>
+				<td><input class="radio" type="radio" name="dd" value="6">Wake up 5-6 hours after I fall asleep</td>
+				<td><input class="radio" type="radio" name="dd" value="7">Wake up very early 1-2 hours before I need to be awake.</td>
+				<td><input class="radio" type="radio" name="dd" value="8">Don’t wake up at all</td>
+			</tr>
+			<tr>
+				<td>Do you wake up only with an alarm?</td>
+				<td><input class="radio" type="radio" name="ll" value="1">Yes</td>
+				<td><input class="radio" type="radio" name="ll" value="2">No</td>
+			</tr>
+			<tr>
+				<td>Do you go to bed later than 11 pm?</td>
+				<td><input class="radio" type="radio" name="llb" value="1">Yes</td>
+				<td><input class="radio" type="radio" name="llb" value="2">No</td>
+			</tr>
+			<tr>
+				<td>Do you sleep in a room with any light or noise?</td>
+				<td><input class="radio" type="radio" name="llc" value="1">Yes</td>
+				<td><input class="radio" type="radio" name="llc" value="2">No</td>
+			</tr>
+			<tr>
+				<td>Goal</td>
+				<td><input class="radio" type="radio" name="ee" value="1">Too increase muscle mass only</td>
+				<td><input class="radio" type="radio" name="ee" value="2">Too decrease body fat % only</td>
+				<td><input class="radio" type="radio" name="ee" value="3">Too increase sports performance</td>
+				<td><input class="radio" type="radio" name="ee" value="4">Too increase muscle mass and decrease body fat % together.</td>
+				<td><input class="radio" type="radio" name="ee" value="5">Too gain maximum levels of fitness and health</td>
+				<td><input class="radio" type="radio" name="ee" value="6">Other (Please explain below in more detail)</td>
 			</tr>
 		</table>
 		<button class="btn do-submitBioSig" type="button">Submit</button>

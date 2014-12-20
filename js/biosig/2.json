@@ -1,0 +1,34 @@
+{
+	"answers": {
+		"noTaste": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"mildTaste": {
+			"a": 2,
+			"b": 2,
+			"c": 2
+		},
+		"strongTaste": {
+			"a": 3,
+			"b": 3,
+			"c": 3
+		}
+	},
+	"content": {
+		"0": " ",
+		"1": "Due to the fact you could not taste anything on the zinc test, this suggests that you are zinc deficient and would need to supplement zinc. However, it is very important that it is not just your top of the mill “health store zinc”. It must be Orotate and Aspartate, chelated (you can find this information on the ingredients section).",
+		"2": "Due to the fact you only had a slight taste of zinc on the zinc test, this suggests that you are slightly zinc difficient and would need to supplement zinc but only in small doses. However, it is very important that it is not just your top of the mill “health store zinc” it has to be Orotate and Aspartate, chelated (you can find this information on the ingredients section).",
+		"3": "Due to the fact you could clearly taste zinc on the zinc test, this suggests that you are NOT zinc difficient, and therefore will not need to include zinc within your protocol of supplements."
+	},
+	"nextQuestions": {
+		"1tab": "1 tab (200mg)",
+		"2tab": "2 tab (400mg)",
+		"3tab": "3 tab (600mg)",
+		"4tab": "4 tab (800mg)",
+		"5tab": "5 tab (1000mg)",
+		"6tab": "6 tab (1200mg)",
+		"7tab": "7 tab (1400mg)"
+	}
+}

@@ -1,0 +1,109 @@
+{
+	"answers": {
+		"chin": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"cheek": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"pec": {
+			"a": 2,
+			"b": 2,
+			"c": 2,
+			"pairs": {
+				"umbilicus": 9,
+				"tri": 10,
+				"subscapularis": 10
+			}
+		},
+		"tri": {
+			"a": 2,
+			"b": 2,
+			"c": 2,
+			"pairs": {
+				"pec": 10,
+				"subscapularis": 10,
+				"hamstrings": 11,
+				"quadriceps": 11
+			}
+		},
+		"subscapularis": {
+			"a": 3,
+			"b": 3,
+			"c": 3,
+			"pairs": {
+				"pec": 10,
+				"tri": 10
+			}
+		},
+		"iliac": {
+			"a": 3,
+			"b": 3,
+			"c": 3
+		},
+		"midaxillary": {
+			"a": 4,
+			"b": 4,
+			"c": 4
+		},
+		"umbilicus": {
+			"a": 5,
+			"b": 5,
+			"c": [5, 6],
+			"pairs": {
+				"pec": 9
+			}
+		},
+		"knee": {
+			"a": 7,
+			"b": 7,
+			"c": 7
+		},
+		"calf": {
+			"a": 7,
+			"b": 7,
+			"c": 7
+		},
+		"quadriceps": {
+			"a": 8,
+			"b": 8,
+			"c": 8,
+			"pairs": {
+				"hamstrings": 11,
+				"tri": 11
+			}
+		},
+		"hamstrings": {
+			"a": 8,
+			"b": 8,
+			"c": 8,
+			"pairs": {
+				"quadriceps": 11,
+				"tri": 11
+			}
+		}
+	},
+	"content": {
+		"0": " ",
+		"1": "The chin and the cheek are the early detection system for fat loss in a new client. We measure these folds because they are usually the first areas to change. These sites aren't linked to any particular hormone imbalance but act as an indicator as to whether or not the plan is effective.",
+		"2": "These two sites are what are called \"The BioSignature androgen sites\". High pectoral or high tricep readings in men can reflect an androgen imbalance which makes it far more difficult to add lean muscle mass. This is particularly so when both pectoral and triceps have high readings. <br/> By monitoring and modulating these sites, you produce more testosterone naturally. You also prevent aromatization. Aromatization is a counter-productive metabolic process that is the result of the chemical conversion of testosterone to estrogen (female hormone), which for males can result in severe cases of gynecomastia (fatty breast tissue behind the nipple area) and for women “flabby bingo wings” (fatty looking triceps).",
+		"3": "Subscapularis (back fat) or iliac Crest (love handles) are two sites of which are predictors of insulin management and blood sugar regulation. The subscapularis is most closely related to your genetic sensitivity of your own insulin. <br/> The iliac crest, while also a measure of relative insulin resistance, is also a marker for recent insulin management - therefore it is relatively easy for me to take note of two things: <br/> 1. Do you need to lower your carbohydrate intake, and 2. informs me of weather you are following the diet or not! <br/> This is a polite way of saying how many carbohydrates or CAKES you have been eating. Proper insulin management is of prime importance in achieving fat loss, as well as preventing diabetes Type II. Some would go as far as to say that the more insulin you produce, the faster you age. Luckily with our plan, this is one of the easiest hormones to control by yourself. People who learn to manage their insulin properly usually show dramatic improvements in body composition and body fat within a short time.",
+		"4": "The Midaxillary fold is associated with functioning of the thyroid gland. The functioning of the thyroid gland is dependent upon proper levels of zinc, iodine, and other trace minerals, as well as the relative absence of toxins, such as heavy metals. It therefore indicates how effective your metabolism works and if you are burning enough calories at rest. Which at the moment for YOU is not the case.",
+		"5": "It is estimated that we have over 100 times more stress then our grandparents. It’s no surprise that a large portion of people struggling to lose weight around the middle (like yourself) are suffering from elevated cortisol. There are numerous causes for this, and laboratory testing can be inaccurate due to the fact that the effects of cortisol happen over weeks and months. <br/>BioSignature not only tells you if cortisol is an issue, it also helps narrow down why it is an issue and what you can do about it. More importantly, it gives you practical solutions for your lifestyle, because for most of us, quitting our jobs and hiring a full time assistant are not viable options. <br/>Elevated stress and cortisol levels increase abdominal fat, and make it harder for your body to regulate insulin. Cortisol is an adrenal hormone that is made in response to stressful circumstances – training, working, business negotiations, relationships, alcohol consumption, poor sleep quality etc. Fat around the belly button is a reflection of demand for cortisol production.<br/>The demand for production of cortisol is what affects the thickness site, not the level of cortisol that you actually produce. The level of cortisol you are able to produce is a function of the strength and nutritional status of your adrenal glands. <br/>Due to the fact that stomach fat is currently a high priority, it is extremely important that we reduce any possible situations of which may include long bouts of cortisol production on a daily basis caused by interacting with stressful situations. This means - no aerobic/cardio activity, ensuring we are fully hydrated, not over consuming alcohol, sugar, caffine etc. I will also put together a list further on in this report with more information to assist you.",
+		"6": "Yet due to the fact Umbilicus (stomach) is only third priority, it is crucial that we take this one step at a time and focus on the first two before we focus directly on the stomach. The quicker you are successful with the first two, the sooner we can specifically target 'spot reduction' for the stomach.",
+		"7": "The knee and calf sites are a function of growth hormone (GH) production according to Biosignature Modulation&trade;. The knee tends to be indicative of more immediate improvements in growth hormone production, while the calf changes more slowly. Both of these sites tend to improve when sleep quality, quantity, or both increase alongside a strength training program.",
+		"8": "Biosignature Modulation&trade; states that the sites of the quadriceps and hamstrings are a function of estrogen levels and estrogen ratios. This is a common BioSignature&trade; site in females or males who carry ‘higher than average’ female hormones. Through dietary intervention, supplementation, and lifestyle management – Biosignature Modulation&trade; helps you turn on the lypolitic (fat burning) genes and turn off the lypogenic (fat storing) ones.",
+		"9": "Due to the fact that pectoral, and umbilicus are your top 2 priority sites, it is very important that we monitor your levels of stress throughout the day, and we try to keep training volume to a minimum. This means shorter more intense sessions focusing on heavy compound lifts will be beneficial when it comes to dropping body fat, and keeping cortisol as low as possible whilst increasing your body’s ability to produce natural testosterone.",
+		"10": "High readings here when paired with the triceps may reflect poor insulin sensitivity and carbohydrate intolerance. Therefore, suggestions for your diet will be to drastically reduce complex starchy carbohydrates (rice, oats, potatoes, bread etc) until these sites have lowered in body fat and you have become more ‘insulin sensitive’ (optimum carbohydrate management) as apposed to being insulin resistant (struggling to handle carbohydrates in a sufficient manner).",
+		"11": "High body fat here in relation to the triceps can be correlated to high estrogen levels, however, they are also closely related to blood sugar management. <br/> Through manipulation of the hormone profile and energy systems, lactate threshold training is particularly effective here."
+	},
+	"nextQuestions": {
+		"noTaste": "No Taste",
+		"mildTaste": "Mild Taste",
+		"strongTaste": "Strong Taste"
+	}
+}
