@@ -322,145 +322,160 @@
 			"content": "40",
 		},
 		"l1" : {
-			"content": "",
+			"content": "46",
 		},
 		"l2" : {
-			"content": "",
+			"content": "47",
 		},
 		"l3" : {
-			"content": "",
+			"content": "48",
 		},
 		"l4" : {
-			"content": "",
+			"content": "49",
 		},
 		"m1" : {
-			"content": "",
+			"content": "50",
 		},
 		"m2" : {
-			"content": "",
+			"content": "50",
 		},
 		"m3" : {
-			"content": "",
+			"content": "51"
 		},
 		"m4" : {
-			"content": "",
+			"content": "52",
 		},
 		"m5" : {
-			"content": "",
+			"content": "52",
 		},
 		"m6" : {
-			"content": "",
+			"content": "52",
 		},
 		"n1" : {
-			"content": "",
+			"content": "53",
 		},
 		"n2" : {
-			"content": "",
+			"content": "0",
 		},
 		"n3" : {
-			"content": "",
+			"content": "53",
 		},
 		"ii1" : {
-			"content": "",
+			"content": "54",
 		},
 		"ii2" : {
-			"content": "",
+			"content": "55",
 		},
 		"ii3" : {
-			"content": "",
+			"content": "56",
 		},
 		"o1" : {
-			"content": "",
+			"content": "0",
 		},
 		"o2" : {
-			"content": "",
+			"content": "0",
 		},
 		"o3" : {
-			"content": "",
+			"content": "0",
 		},
 		"o4" : {
-			"content": "",
+			"content": "0",
 		},
 		"o5" : {
-			"content": "",
+			"content": "0",
 		},
 		"p1" : {
-			"content": "",
+			"content": "57",
 		},
 		"p2" : {
-			"content": "",
+			"content": "58",
 		},
 		"p3" : {
-			"content": "",
+			"content": "59",
+			pairs: {
+				62: ["a8", "b8", "c9"]
+			}
 		},
 		"p4" : {
-			"content": "",
+			"content": "60",
 		},
 		"p5" : {
-			"content": "",
+			"content": "59",
+			pairs: {
+				62: ["a8", "b8", "c9"]
+			}
 		},
 		"p6" : {
-			"content": "",
+			"content": "61",
+			pairs: {
+				62: ["a8", "b8", "c9"]
+			}
 		},
 		"v1" : {
-			"content": "",
+			"content": "0",
 		},
 		"v2" : {
-			"content": "",
+			"content": "63",
 		},
 		"v3" : {
-			"content": "",
+			"content": "64",
+			pairs: {
+				65: ["a9", "b9", "c9", "a10", "b10", "c10", "a11", "b11", "c11", "a12", "b12", "c12"]
+			}
 		},
 		"w1" : {
-			"content": "",
+			"content": "66",
 		},
 		"w2" : {
-			"content": "",
+			"content": "67",
 		},
 		"w3" : {
-			"content": "",
+			"content": "67",
 		},
 		"x1" : {
-			"content": "",
+			"content": "0",
 		},
 		"x2" : {
-			"content": "",
+			"content": "68",
 		},
 		"x3" : {
-			"content": "",
+			"content": "68",
 		},
 		"y1" : {
-			"content": "",
+			"content": "0",
 		},
 		"y2" : {
-			"content": "",
+			"content": "69",
 		},
 		"y3" : {
-			"content": "",
+			"content": "69",
 		},
 		"z1" : {
-			"content": "",
+			"content": "70",
 		},
 		"z2" : {
-			"content": "",
+			"content": "71",
 		},
 		"z3" : {
-			"content": "",
+			"content": "72",
 		},
 		"z4" : {
-			"content": "",
+			"content": "73",
 		},
 		"aa1" : {
-			"content": "",
+			"content": "74",
 		},
 		"aa2" : {
-			"content": "",
+			"content": "74",
+			pairs: {
+				76: ["Z1", "Z2"]
+			}
 		},
 		"aa3" : {
-			"content": "",
+			"content": "75",
 		},
 		"aa4" : {
-			"content": "",
+			"content": "75",
 		},
 		"bb1" : {
 			"content": "",
@@ -609,5 +624,36 @@ Due to the fact that stomach fat is currently a high priority, it is extremely i
 		43: "Your overall food choices seem to be a cause for concern due to the fact that your diet is not 100% where it needs to be based on your diet quality “self analysis”."
 		44: "Your aerobic activity “volume” is most certainly a cause for concern, we shall come to this a little later on. However, extensive cardio activity on a regular basis can be a key contributor towards high cortisol production and low mid day energy levels"
 		45: "it is important to bare in mind that your low water intake can be contributed to most mid-afternoon energy slumps. Dehydration and reaching for a glass of water or two in the afternoon is a much healthier alternative to coffee or soda stimulants."
+		46: "Low night time energy is not necessary a bad thing, as this is when we are meant to be winding down, preparing ourselves for rest and recovery. If this is not the case for you and you work shifts meaning that you sleep throughout the day and work at night, you need to make myself or another member of the team aware of this, as there shall be key components you need to put in place to aid maximum recovery"
+		47: "Moderate night time energy is not necessary a bad thing, as this is when we are meant to be winding down, preparing ourselves for rest and recovery. If this is not the case for you and you work shifts meaning you sleep through the day and work at night you need to make myself or another member of the team aware of this, as there shall be key components you need to put in place to aid maximum recovery"
+		48: "Mixed night time energy could potentially be a concern, as this is when we are meant to be winding down, preparing ourselves for rest and recovery. If this is not the case for you and you work shifts meaning that you sleep throughout the day and work at night you need to make myself or another member of the team aware of this, as there shall be key components you need to put in place to aid maximum recovery."
+		49: "High energy or feeling “wired” at night is a HUGE cause for concern and undoubtedly one of the main causes for sleeping disorders, and in my own personal opinion, is one of the main links to over eating, making wrong food choices, and specifically causing fat distribution around the mid section! I will cover your sleeping pattern and how to combat this later in the report."
+		50: "Due to the fact that your water intake is fairly low I think it is extremely important to make you aware that the immediate symptoms of dehydration include dry skin, constipation, fatigue and headaches. The immune system will also be depressed when it lacks water, so we are much more likely to catch a cold or the flu when we are weakened by dehydration. Therefore, your total water intake over the day needs to increase dramatically! I am talking more along the lines of 3-4 litres (6-8 glasses) ESPECIALLY the first two weeks of this program when you will be most likely on your “detox phase!” The importance of drinking enough water cannot be overemphasized since water regulates all the body's functions by controlling the distribution of the body's chemicals and their activity level. Bottom line, if you don’t want to feel like death for the next 10-14 days then take my educated advice and keep a 2 litre bottle of ‘filtered water’ with you 24/7! Not tap water!"
+		51: "You may think drinking 3-5 glasses of water per day is adequate for this program. Well let me stop and tell you right now - you are in for a big surprise! Due to the fact that your water intake is fairly low (maybe not compared to the average joe - but it is low!) for this program you are about to begin, I think it is extremely important to make you aware that the immediate symptoms you might receive if you do not UP your water intake. They include dry skin, constipation, fatigue and headaches. The immune system will also be depressed when it lacks water, so we are much more likely to catch a cold or the flu when we are weakened by dehydration. Therefore your total water intake over the day needs to increase dramatically! I am talking more along the lines of 3-4 litres (6-8 glasses) ESPECIALLY the first two weeks of this program when you will be most likely on your “detox phase!” The importance of drinking enough water cannot be overemphasized since water regulates all the body's functions by controlling the distribution of the body's chemicals and their activity level. Bottom line, if you don’t want to feel like death for the next 10-14 days then take my educated advice and keep a 2 litre bottle of ‘filtered water’ with you 24/7! Not tap water!",
+		52: "Your current total water intake looks a good “healthy” amount, and I would seriously recommend that you keep this up throughout the entire process of this program."
+		53: "One key point to take onboard : Avoid tap water (Britain’s water supply contains large amounts of estrogen through our excess secretion of chemicals and by product of consuming the birth control pill. So, even if you don’t take the birth control pill, you will be unknowingly consuming this when drinking tap water - yes horrible, I know! Before you think you’re safe - no that Brita filter just won’t cut it I’m afraid, although it will help). This should be a major cause for concern if your main priority sites are related to high female hormones - (Layman’s term’s - fatty legs)."
+		54: "Due to the fact that you have perceived your diet to be between 1-3 on a scale from 1-10, it is quite predictable that once maintaining a clean diet (specifically the one you are being asked to follow in your black book) you will create a much more positive environment for your body to transform into something amazing."
+		55: "Your current diet is ranked between 4-7 which in my opinion is 60-80% of the British population. You follow a mediocre quality diet, then you should expect to create a mediocre physique. However, that does not mean that you cannot enjoy the fruits of nature once your in tremendous shape without suffering the consequences (by tremendous I mean sub 12% for females and sub 8% for males)."
+		56: "Currently you have ranked your perceived diet quality to be high 8-10 which is the level of a professional athlete. You know about proper nutrition and you are fully aware of your recommended protein, carb and fat intake. You eat a good variety of meats, fish and vegetables and most probably supplement pre and post exercises. If this does not describe you then you have misunderstood the question asked and will need to make myself aware so that I can readjust your recommendations if any are required.",
+		57: "Due to the fact that you do not consume alcohol, this makes our job less difficult by eliminating potential chances of toxicity and therefore eliminates potential for increased umbilical fat storage."
+		58: "Due to the fact that you do not drink alcohol that often, and when you do consume, you do not binge drink means that we can eliminate potential chances of toxicity through binge drinking, and therefore reduce potential for increased umbilical fat storage. ‘Resveratrol’, a polyphenol found in red wine has been found to help with fat loss and extended lifespan. So you may have 1 glass of Spanish or Sardinian red per day if you so choose - ideally organic (you can buy from organic food store in Chorlton named ‘Unicorn’ ...or online), preferably drink only at night time before bed to reduce chances of elevated cortisol or stress - allowing you to sleep better."
+		59: "You need to avoid alcohol to get rid of belly fat and improve health. Opting for a drink is not going to kill you, and if you choose to drink, red wine is the best choice, but if you really want to lose belly fat, eliminating all forms of alcohol is a good start."
+		60: "Now when it comes to alcohol consumption - your 1 glass at the end of your day may not be such a bad thing after all. ‘Resveratrol’, a polyphenol found in red wine has been found to help with fat loss and extended lifespan. So you may have 1 glass of Spanish or Sardinian red per day if you so choose - ideally organic (you can buy from organic food store in Chorlton named ‘Unicorn’ ...or online), preferably drink only night time before bed to reduce chances of elevated cortisol or stress - allowing you to sleep better."
+		61: "You need to avoid alcohol to get rid of belly fat and improve health. Opting for a drink is not going to kill you, and if you choose to drink, red wine is the best choice, but if you really want to lose belly fat, eliminating all forms of alcohol is a good start."
+		62: "You are over consumption and/or regularity of alcohol consumption is most likely one of the reasons why ‘umbilicus’ (stomach) is one of your top 3 main sites for body fat storage."
+		63: "Toss out body care products that contain parabens, such as methyl-paraben, as it can lower testosterone in men and can cause breast cancer in both sexes.  Parabens are preservatives found in cosmetic products, including lotions, shampoo and makeup, that prevent microbial and fungal contamination.  There is plenty of recent evidence from numerous studies demonstrating that several types of parabens can induce estrogen-like responses. How safe are your products?  To check go to www.ewg.org"
+		64: " Toss out body care products that contain parabens, such as methyl-paraben, as it can lower testosterone in men and can cause breast cancer in both sexes.  Parabens are preservatives found in cosmetic products, including lotions, shampoo and makeup, that prevent microbial and fungal contamination.  There is plenty of recent evidence from numerous studies demonstrating that several types of parabens can induce estrogen-like responses. How safe are your products?  To check go to www.ewg.org"
+		65: "The fact “fatty legs” is a priority of yours makes your contact with cosmetics and chemical based products even more of an issue, and something you need to address over the next few weeks/months."
+		66: "Side note: Soybean crops are among the most heavily sprayed, and their high pesticide content increases your body’s already overwhelming toxic load. Make sure you keep your soy intake to as near minimum as possible! If you really want to learn about soy products then I suggest you buy “The Whole Soy Story” By Kaayla Daniel (New Trends Publishing).  It is pretty depressing reading, but nevertheless highly informative and enlightening. Soy products are jam packed with anti-nutrients such as phytates, and toxins which are now linked to a host of ailments ranging from brain shrinkage to thyroid dysfunction. In men, it lowers testosterone and sperm count to a point where they are 317% more likely to go shopping than to have sex. (OK - Yes, I am kidding about the shopping thing, but not for the ailments brought on by soy.)"
+		67: "Side note: Soybean crops are among the most heavily sprayed, and their high pesticide content increases your body’s already overwhelming toxic load. Make sure you keep your soy intake to as near minimum as possible! If you really want to learn about soy products then I suggest you buy “The Whole Soy Story” By Kaayla Daniel (New Trends Publishing).  It is pretty depressing reading, but nevertheless highly informative and enlightening. Soy products are jam packed with anti-nutrients such as phytates, and toxins which are now linked to host of ailments ranging from brain shrinkage to thyroid dysfunction. In men, it lowers testosterone and sperm count to a point where they are 317% more likely to go shopping than to have sex. (OK - Yes, I am kidding about the shopping thing, but not for the ailments brought on by soy.)"
+		68: "It is also important to remember that shower gels, creams, shampoos and conditioners you use due to the amount of showers you have could be limiting your potential for hormone balance and fat loss. More tips on this will be mentioned later on."
+		69: "Since you have made us aware of your current exposure to chemicals, it is extremely important that you take note of these 5 things of which you can do to limit chemical estrogen exposure: 1)    Eat organic where possible and avoid ingesting estrogenic pesticides and growth hormones.2)    Use natural cleaning products. Chemical cleaners contain toxins and estrogen-mimicking compounds. Opt for plant-based cleaners. Don’t trust it just because it says “green” on the label. Check ingredients. 3)    Use natural personal care products such as shampoo and conditioner. These are the same as cleaning products—don’t trust it just because it says “natural” on the label. Look for DBP, DEP, DEHP, BzBP, and DMP in the ingredients; all are chemical estrogens. 4)    Avoid scented candles and air fresheners. Some may contain essential oils and are safe, but beware of the word “fragrance” because it may refer to hormone-altering chemicals. 5)    Never microwave or heat plastic. Under high temperatures is when BPA is most easily transferred from plastic to food. Use glass containers."
+		70: "If your goal is fat loss or muscle building, avoid endurance exercise completely. Focus on putting all your energy into strength training. If you have time for more than 4 training sessions a week, do interval training in the form of sprints or strongman exercises like sled work. But currently you are not strength training at all and this is a HUGE ‘NO NO’."
+		71: " If your goal is fat loss or muscle building, avoid endurance exercise completely. Focus on putting all your energy into strength training. If you have time for more than 4 training sessions a week, do interval training in the form of sprints or strongman exercises like sled work. But currently you are only strength training 1-2 days per week. This has to at least double if not triple in terms of sessions per week."
+		72: "You have a nice number of strength sessions you are currently implementing per week. Remember both strength training and sprint intervals are incredibly effective for burning fat if you train with adequate volume and intensity. If you are passionate about endurance exercise but need to lose fat, you MUST add strength training to your activities. Best results will come from limiting endurance training to 1 session a week, with interval training being used for extra conditioning."
+		73: "You have a nice number of strength sessions you are currently implementing per week. Remember strength training and sprint intervals are incredibly effective for burning fat if you train with adequate volume and intensity. If you are passionate about endurance exercise but need to lose fat, you MUST add strength training to your activities. Best results will come from limiting endurance training to 1 session a week, with interval training being used for extra conditioning."
+		74: "Both strength training and sprint intervals are incredibly effective for burning fat if you train with adequate volume and intensity. If you are passionate about endurance exercise but need to lose fat, you MUST add strength training to your activities. Best results will come from limiting endurance training to 1 session a week, with interval training being used for extra conditioning."
+		75: "Endurance exercise 'turns off' muscle building pathways and promotes catabolism, inhibiting muscle development. Aerobic exercise is ineffective for fat loss. Opt for anaerobic training modes if your goal is to get lean. Both strength training and sprint intervals are incredibly effective for burning fat if you train with adequate volume and intensity. If you are passionate about endurance exercise but need to lose fat, you MUST add strength training to your activities. Best results will come from limiting endurance training to 1 session a week, with interval training being used for extra conditioning."
+		76: "Prioritise cardio and you will never be satisfied with your physique. Instead, prioritise strength training for optimal leanness. By increasing muscle mass, you ratchet up the amount of energy your body uses every day, giving you a chiseled, lean physique. Sprint sessions can be added to your training program to burn fat, but don't make the mistake of concurrently doing aerobic-based cardio and lifting at the same time if you want to get results."
 	}
 }
