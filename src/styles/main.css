@@ -5398,6 +5398,8 @@ button.close {
   .table .table-cell {
     border: 1px solid;
     padding: 10px; }
+    .table .table-cell_header {
+      font-weight: 700; }
   .table .table-row_header {
     margin-top: 1em;
     font-weight: 700; }

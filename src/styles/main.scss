@@ -86,6 +86,9 @@
 	.table-cell {
 		border: 1px solid;
 		padding: 10px;
+		&_header {
+			font-weight: 700;
+		}
 	}
 	.table-row_header {
 		margin-top: 1em;
