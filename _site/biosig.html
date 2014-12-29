@@ -79,7 +79,7 @@
 			</div>
 			<div class="table-row">
 				<span class="table-cell table-cell_header">Pec</span>
-				<span class="table-cell"><input class="radio" type="radio" name="a" value="3"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" checked value="3"></span>
 				<span class="table-cell"><input class="radio" type="radio" name="b" value="3"></span>
 				<span class="table-cell"><input class="radio" type="radio" name="c" value="3"></span>
 			</div>
@@ -110,7 +110,7 @@
 			<div class="table-row">
 				<span class="table-cell table-cell_header">Umbilicus</span>
 				<span class="table-cell"><input class="radio" type="radio" name="a" value="8"></span>
-				<span class="table-cell"><input class="radio" type="radio" name="b" value="8"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" checked value="8"></span>
 				<span class="table-cell"><input class="radio" type="radio" name="c" value="8"></span>
 			</div>
 			<div class="table-row">
@@ -425,6 +425,19 @@
 		<button class="btn do-submitBioSig" type="button">Submit</button>
 	</form>
 </section>
+
+<script type="text/javascript">
+	function downloadJSAtOnload() {
+		var element = document.createElement("script");
+		element.src = "js/answers.js";
+		document.body.appendChild(element);
+	}
+	if (window.addEventListener)
+	window.addEventListener("load", downloadJSAtOnload, false);
+	else if (window.attachEvent)
+	window.attachEvent("onload", downloadJSAtOnload);
+	else window.onload = downloadJSAtOnload;
+</script>
 
 	<footer class="container">
 		<p class="text">Frontline Fit Copyright</p>
