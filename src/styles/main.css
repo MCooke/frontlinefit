@@ -5389,5 +5389,44 @@ button.close {
     float: right;
     margin: auto;
     display: inline-block; } }
+.table {
+  display: flex;
+  flex-wrap: wrap; }
+  .table input[type=checkbox], .table input[type=radio] {
+    display: inline-block;
+    margin: 5px; }
+  .table .table-cell {
+    border: 1px solid;
+    padding: 10px; }
+  .table .table-row_header {
+    margin-top: 1em;
+    font-weight: 700; }
+    .table .table-row_header .table-cell {
+      border: 0;
+      padding: 10px 0; }
+
+.table-row {
+  flex: 1 0 100%;
+  display: flex; }
+
+.table-cell {
+  flex: 0 1 100%; }
+
+.ie .table {
+  display: table;
+  border-collapse: collapse; }
+.ie .table-row {
+  display: table-row;
+  width: 100%; }
+.ie .table-row_header {
+  margin-top: 1em;
+  font-weight: 700; }
+  .ie .table-row_header .table-cell {
+    border: 0;
+    padding: 30px 15px; }
+.ie .table-cell {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid; }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@
 module.exports = function( grunt ) {
 
 	var tasks = {
-		styles : ['sass', 'cssmin', 'scsslint'],
+		styles : ['sass', 'cssmin'],
 		scripts: ['uglify', 'jscs']
 	}
 

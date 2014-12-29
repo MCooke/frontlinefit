@@ -473,63 +473,69 @@
 		},
 		"aa3" : {
 			"content": "75",
+			pairs: {
+				76: ["Z1", "Z2"]
+			}
 		},
 		"aa4" : {
 			"content": "75",
+			pairs: {
+				76: ["Z1", "Z2"]
+			}
 		},
 		"bb1" : {
-			"content": "",
+			"content": "77",
 		},
 		"bb2" : {
-			"content": "",
+			"content": "77",
 		},
 		"bb3" : {
-			"content": "",
+			"content": "78",
 		},
 		"bb4" : {
-			"content": "",
+			"content": "79",
 		},
 		"bb4" : {
-			"content": "",
+			"content": "79",
 		},
 		"cc1" : {
-			"content": "",
+			"content": "0",
 		},
 		"cc2" : {
-			"content": "",
+			"content": "0",
 		},
 		"cc3" : {
-			"content": "",
+			"content": "80",
 		},
 		"cc4" : {
-			"content": "",
+			"content": "80",
 		},
 		"cc5" : {
-			"content": "",
+			"content": "81",
 		},
 		"dd1" : {
-			"content": "",
+			"content": "82",
 		},
 		"dd2" : {
-			"content": "",
+			"content": "82",
 		},
 		"dd3" : {
-			"content": "",
+			"content": "83",
 		},
 		"dd4" : {
-			"content": "",
+			"content": "84",
 		},
 		"dd5" : {
-			"content": "",
+			"content": "85",
 		},
 		"dd6" : {
-			"content": "",
+			"content": "86",
 		},
 		"dd7" : {
-			"content": "",
+			"content": "87",
 		},
 		"dd8" : {
-			"content": "",
+			"content": "88",
 		},
 		"ll1" : {
 			"content": "",
@@ -655,5 +661,17 @@ Due to the fact that stomach fat is currently a high priority, it is extremely i
 		74: "Both strength training and sprint intervals are incredibly effective for burning fat if you train with adequate volume and intensity. If you are passionate about endurance exercise but need to lose fat, you MUST add strength training to your activities. Best results will come from limiting endurance training to 1 session a week, with interval training being used for extra conditioning."
 		75: "Endurance exercise 'turns off' muscle building pathways and promotes catabolism, inhibiting muscle development. Aerobic exercise is ineffective for fat loss. Opt for anaerobic training modes if your goal is to get lean. Both strength training and sprint intervals are incredibly effective for burning fat if you train with adequate volume and intensity. If you are passionate about endurance exercise but need to lose fat, you MUST add strength training to your activities. Best results will come from limiting endurance training to 1 session a week, with interval training being used for extra conditioning."
 		76: "Prioritise cardio and you will never be satisfied with your physique. Instead, prioritise strength training for optimal leanness. By increasing muscle mass, you ratchet up the amount of energy your body uses every day, giving you a chiseled, lean physique. Sprint sessions can be added to your training program to burn fat, but don't make the mistake of concurrently doing aerobic-based cardio and lifting at the same time if you want to get results."
+		77: "It’s fat loss time for many people, and for you personally, sleep is obviously an overlooked variable that plays a huge role in your ability to turn hard training and clean eating into a better body. Studies show that the amount of sleep people need is very individualised, but chronic sleep deprivation will derail all your transformation efforts. First, acute (short term) lack of sleep decreases insulin sensitivity and leads to elevated blood sugar, shifting the body into fat storage mode. Research suggests that lack of sleep leads people to eat more and opt for foods that are higher in carbs and fat. Second, being tired means you will experience more stress—both psychologically and physically. “Without enough sleep, we all become tall two-year-olds.” You can add hungry, fat, slow, dumb, mean, angry, sick, and eventually dead to the list of the effects of lack of sleep. It’s true; you’d die of sleep deprivation before you’d die of starvation! Researchers suggest that eating a high-protein diet is ideal for achieving overall better sleep, but eating a meal of carbohydrates in the evening can help you go to sleep quickly if you are “lean enough” (below 12% in my opinion is the safe zone). Some studies show high-glycemic carbs shorten sleep onset but may negatively affect sleep quality. A smart move is to opt for whole-food carbs rather than anything baked or processed, such as cookies, cake or ice cream. Not to mention supplementing Magnesium. Magnesium calms the nervous system, fights inflammation and high levels of stress in the form of cortisol which leads to poor sleep. A recent study of people with poor sleep as measured by a sleep quality index found that taking a magnesium supplement improved sleep quality by 60 percent and also decreased inflammatory stress makers."
+		78: "Due to the fact that you only sleep for around 4-6 hours I would strongly suggest you supplement magnesium. Magnesium calms the nervous system and fights inflammation, high levels of which cause poor sleep. A recent study of people with poor sleep as measured by a sleep quality index found that taking a magnesium supplement improved sleep quality by 60 percent and also decreased inflammatory stress makers. Avoid magnesium in the form of carbonate, oxide or gluconate because they are cheap forms and poorly absorbed - usually the ones you find in Holland & Barret for a few quid! Opt for a form that is easily used by the body: magnesium citrate, glycinate, taurate, aspartate, malate, succinate or fumarate."
+		79: "Because you have informed me that you achieve 7 or more hours of solid sleep per night I don’t think we need to focus on this in particular and therefore we can focus on other areas of which may be limiting your chances of reaching your goal."
+		80: "Sleep problems and fatigue are hard to solve. Aside from the obvious solutions (sleep in darkness and quiet, turn off electromagnetic fields such as WiFi, unplug from electronics any TV’s, practice meditation or mindful activities before bed, and supplement magnesium). Glass of Red Wine at Night Red wine contains melatonin. Best grapes are: –  Nebbiolo –  Merlot –  Cabernet Savignon –  Sangiovesse –  Croatina "
+		81: "Sleep problems and fatigue are hard to solve. Aside from the obvious solutions (sleep in darkness and quiet, turn off electromagnetic fields such as WiFi, unplug from electronics any TV’s, practice meditation or mindful activities before bed, take magnesium). Glass of Red Wine at Night Red wine contains melatonin. Best grapes are: –  Nebbiolo –  Merlot –  Cabernet Savignon –  Sangiovesse –  Croatina "
+		82: "Due to the fact you wake up for the toilet during the night, it would be wise to cut back on your fluid intake before hitting the sack!...There is no specific time - it is something you will have to experiment with yourself. I would start with 2 hours before bed and work my way backward if you continue to wake for the loo. By any chance, if you need to get up in the middle of the night, keep the light off and keep one eye closed. Turning the light on and opening both eyes will instantly interrupt the production of the sleep hormone melatonin. Some researchers even advance that being awake longer than 3 seconds during the night is enough to interrupt melatonin production. and this can limit your potential for natural hormone balance and recovery from previous sessions."
+		83: "Endless jokes are made about new parents not getting enough sleep, but it’s no laughing matter. Lack of sleep or having interrupted sleep unquestionably affects your physical health, and you’ll be emotionally drained even before your day begins. Although newborns generally don’t sleep for more than four and a half hours at a time, this pattern will change. If you provide an environment conducive to nighttime and daytime sleep, such as using minimal lighting and talking in a soft voice when it’s time for their sleep time, you will promote a more natural sleep cycle for them. Although having a baby fall asleep in your arms is a wonderful experience, doing so on a regular basis establishes a pattern that can become difficult to break. Now let’s get back to you. Insomnia is a general term describing the inability to sleep well. One type of insomnia is not being able to get to sleep, and another type is being able to get to sleep but not being able to stay asleep.  Often, a single supplement can resolve chronic sleep disorders – case in point: magnesium. The times you frequently wake up at night can also reflect internal problems that need to be addressed: Chinese Medicine and other forms of alternative medicine have determined certain times we wake up can mean specific internal problems Here are the times: Waking Before 1am= poor blood sugar handling and poor overall quality diet. Waking Between 1-3am= Poor Liver function, Waking Between 3-5 AM= Lung Meridian and Oxidative Stress Waking Between 5-7AM= or right before you are to typically wake up = Sometimes triple warmer and poor thyroid function. Now these times are not “etched” in stone, but this would be typical for someone who goes to bed between 9pm and 11pm. If you go to bed at other times, the waking patterns will be changed somewhat.  Also, a common thought in Eastern Medicine is that the time between 11pm and 12am is when the body begins the “detoxifying process” and if you “miss” that window of time by staying up late, the process will not occur as effectively that night or will not occur at all."
+		84: "Waking Before 1am= poor blood sugar handling and poor overall quality diet. If you have a poor overall diet and your blood sugar is all over the place then typically you will wake up not long after going to bed because of poor overall insulin health"
+		85: "Waking Between 1-3am= Poor Liver function. Your liver is working too hard to detoxify you and that increases your metabolism=waking up. This is a well know Eastern Medicine philosophy and using Liver and Gallbladder detoxifying vitamins will help. Also Magnesium Glycinate is great for this."
+		86: "Waking Between 3-5 AM= Lung Meridian and Oxidative Stress. Your antioxidant status is too low, this is very common during menopause. Increasing you antioxidant status, especially Vitamin E and Vitamin C will help tremendously with this. Also, take in more “green” powdered fruit and veggie drinks."
+		87: "Waking before 5-7AM= or right before you are to typically wake up = sometimes triple warmer and poor thyroid function. Eat more protein and detoxify. This could also be poor Colon and Large Intestine health, and increasing fibre and probiotics will help this."
+		88: "Due to the fact that you hardly wake up at night means this is a particular area of sleep/recovery and a “variable” of which doesn’t need to be addressed and therefore makes my life/job much easier! So for that I say - THANK YOU! :-)"
 	}
 }
