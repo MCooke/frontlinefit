@@ -32,25 +32,15 @@ social:
 <section class="container">
 
 	{% for tile in page.social %}
-		<div class="social social_{{ tile.type }} col-xs-6 col-sm-4 col-lg-3" style="background-image='{{ tile.image }}'">
-		  <p class="social-name">{{ tile.name }}</p>
-		  <p class="social-message">{{ tile.message }}</p>
+		<div class="social social_{{ tile.type }} col-xs-6 col-sm-4 col-lg-3" >
+			<div class="social-inner col-xs-12" style="background-image: url('{{ tile.image }}')">
+				<div class="social-filter col-xs-12" >&nbsp;</div>
+				<p class="social-name">{{ tile.name }}</p>
+				<p class="social-message">{{ tile.message }}</p>
+			</div>
 		</div>
 	{% endfor %}
 
 </section>
-
-<script type="text/javascript">
-	function downloadJSAtOnload() {
-		var element = document.createElement("script");
-		element.src = "js/answers.js";
-		document.body.appendChild(element);
-	}
-	if (window.addEventListener)
-	window.addEventListener("load", downloadJSAtOnload, false);
-	else if (window.attachEvent)
-	window.attachEvent("onload", downloadJSAtOnload);
-	else window.onload = downloadJSAtOnload;
-</script>
 
 {% include _footer.html %}
