@@ -66,3 +66,15 @@ var getContent = function( givenAnswers ) {
 	$( '#bioSigOutput' ).html( answers );
 
 }
+
+$( function() {
+	console.log( 'ready' );
+	if ( window.location.hash ) {
+		console.log('in if');
+		$.each( window.location.hash.substring(1).split( '&' ), function( key, value ) {
+			var currentValue = value.split( '=' );
+			console.log( currentValue );
+			$("input[name='" + currentValue[0] + "'][value='" + currentValue[1] + "']").attr( 'checked', true )
+		} );
+	}
+} );
