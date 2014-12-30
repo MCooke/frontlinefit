@@ -77,7 +77,7 @@
 }
 
 .social {
-	height: 200px;
+	height: 250px;
 	padding: 20px;
 	&_facebook {
 		.social-filter {
@@ -104,6 +104,10 @@
 	width: 100%;
 	background-size: cover;
 	color: #000111;
+}
+
+.social-name, .social-message {
+	position: relative;
 }
 
 .social-filter {

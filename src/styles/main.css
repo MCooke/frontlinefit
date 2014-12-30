@@ -5390,7 +5390,7 @@ button.close {
     margin: auto;
     display: inline-block; } }
 .social {
-  height: 200px;
+  height: 250px;
   padding: 20px; }
   .social_facebook .social-filter {
     background-color: #3b559e;
@@ -5407,6 +5407,9 @@ button.close {
   width: 100%;
   background-size: cover;
   color: #000111; }
+
+.social-name, .social-message {
+  position: relative; }
 
 .social-filter {
   content: " ";
