@@ -586,37 +586,37 @@ window.bioSigData = {
 			content: "88",
 		},
 		ll1: {
-			content: "",
+			content: "0",
 		},
 		ll2: {
-			content: "",
+			content: "0",
 		},
 		llb1: {
-			content: "",
+			content: "0",
 		},
 		llb2: {
-			content: "",
+			content: "0",
 		},
 		llc1: {
-			content: "",
+			content: "0",
 		},
 		llc2: {
-			content: "",
+			content: "0",
 		},
 		ee1: {
-			content: "",
+			content: "94",
 		},
 		ee2: {
-			content: "",
+			content: "95",
 		},
 		ee3: {
-			content: "",
+			content: "92"
 		},
 		ee4: {
-			content: "",
+			content: "94",
 		},
 		ee5: {
-			content: "",
+			content: "93",
 		},
 		ee6: {
 			content: ""
@@ -714,6 +714,10 @@ window.bioSigData = {
 		88: "Due to the fact that you hardly wake up at night means this is a particular area of sleep/recovery and a “variable” of which doesn’t need to be addressed and therefore makes my life/job much easier! So for that I say - THANK YOU! :-)",
 		89: "Due to the fact that you have mentioned you do not eat many meals per day, I think it is important for me to make you aware that... when you are not eating enough regular meals per day and essentially “starving your body” it is NOT WORKING FOR YOU!... And that is simply because when you don’t eat, you often experience low blood glucose, or hypoglycemia, during which adrenaline is released to elevate blood sugar to keep you going. This leads to sharp elevations in glucose and insulin, causing insulin resistance and impeding fat loss. Hypoglycemia can also lead to chronically imbalanced hormone production—a classic example of a “broken” body. This is where you are at currently if you are over weight yet don’t eat “very often”. Ladies, be aware that there’s also evidence that “intermittent fasting” and hypoglycemia can inhibit fertility and lead to more negative physiological changes in women than what men experience. Intermittent fasting is not all golden for men either—rodent studies suggest skipping meals can produce adrenal dysfunction.“I’m not a morning person”.... “I don’t eat breakfast” The reality for most people is that if they get breakfast right, and thus get their day off to a ‘healthy’ start, they are likely to make better choices throughout the day.  This is something to do with blood sugar management and appetite regulation, but perhaps more to do with starting the day with mindful and positive choices about certain goals and overall health.  Start the day with that mindset and it will more than likely filter through to the rest of your day. Breakfast is the most challenging meal of the day to get ‘right’ for most people, no doubt.  Partly because we’re time poor (don’t have or don’t make time?), and partly because we have preconceived ideas about what is and what is not a ‘breakfast food’.  READ YOUR BLACK PACK ABOUT MEAT AND NUT BREAKFAST! Yet ‘all in all’, if you are reaching your “protein, carb and fat” goal, (of which you shall receive via your “weekly suggestions based on body weight”)...then I don’t give a rats ass how many meals/snacks you eat per day.",
 		90: "Approximately 75% of people are carb intolerant and should not be eating grains;  you must eat protein with every meal - even breakfast. A meat and nut breakfast will make you leaner even if you do not change the rest of your diet. It is best if you rotate the meat each breakfast. You stated that you eat around 6 or so total meals and/or with snacks per day which is great, however you MUST make sure protein is included with each meal... plus smart fats where possible. One of the biggest secrets most of my clients who have had amazing results in the past have shared was to have a bowl of broccoli, cauliflower or green beans with every meal possible. Most people haven’t got the guts to force themselves to do this but those who do this will experience rapid fat loss. The more greens in your diet, the leaner you will become, due to the thermogenic effect of these foods. Whole proteins such as meat and fish are also very thermogenic and will result in rapid fat loss when eaten consistently.",
-		91: "You answered that your eating habits include low or no meals per day, yet you snack a lot...The reality for most people is that if they get breakfast right, and thus get their day off to a ‘healthy’ start, they are likely to make better choices throughout the day.  This is something to do with blood sugar management and appetite regulation, but perhaps more to do with starting the day with mindful and positive choices about certain goals and overall health.  Start the day with that mindset and it will more than likely filter through to the rest of your day. Breakfast is the most challenging meal of the day to get ‘right’ for most people, no doubt.  Partly because we’re time poor (don’t have or don’t make time?), and partly because we have preconceived ideas about what is and is not a ‘breakfast food’.  READ YOUR BLACK PACK ABOUT MEAT AND NUT BREAKFAST!"
+		91: "You answered that your eating habits include low or no meals per day, yet you snack a lot...The reality for most people is that if they get breakfast right, and thus get their day off to a ‘healthy’ start, they are likely to make better choices throughout the day.  This is something to do with blood sugar management and appetite regulation, but perhaps more to do with starting the day with mindful and positive choices about certain goals and overall health.  Start the day with that mindset and it will more than likely filter through to the rest of your day. Breakfast is the most challenging meal of the day to get ‘right’ for most people, no doubt.  Partly because we’re time poor (don’t have or don’t make time?), and partly because we have preconceived ideas about what is and is not a ‘breakfast food’.  READ YOUR BLACK PACK ABOUT MEAT AND NUT BREAKFAST!",
+		92: "Since your goal is to increase sports performance, there are just a couple of small considerations I want you to bare in mind with regards to training. If you are an endurance athlete and want to improve performance, we will need to do a strength-type program with heavy loads (80 percent of the 1RM or heavier) in order to increase short-term and long-term endurance capacity. Performing strength training WON’T compromise endurance performance or result in measurable hypertrophy if it is done in conjunction with regular endurance training. KEY NOTE: If you are a power athlete, AVOID conditioning unless it is very short and very intense. Concurrent training leads to a very significant decrease in power output. The drop in power corresponds to the length of the endurance exercise, and lower intensity conditioning leads to a much greater loss of power. Power is the performance variable that is compromised the MOST by endurance exercise—much more than strength or hypertrophy are. For the Athlete For competitive athletes, every little bit counts. The difference between winning and losing can be hundredths of a second, an inch, a point, or a pound. This makes it so important to get the most out of your diet and supplement program. Training under the guidance of your BioSignature program takes the guess work out of what to eat, and what supplements to use to maximize performance and recovery. With optimal health, diet, and supplementation, you can train better, and more often, getting you ahead of the competition. Hopefully after reading all of what you have read so far, you have gathered the relevant information of which applies directly to you as AN INDIVIDUAL! You have to understand this report is based on every single piece of information you have provided to me.",
+		93: "Since your goal is “to gain a maximum level of general fitness and health” it is crucial to remember we live in a world today where we are exposed to way too many toxins from our environment, some of which were not around 25 years ago. If you add on top of that, that the nutrient value of our food has gone down, and stress has gone up; it does not make a favorable environment for health. Learning what things your body is struggling with, and obtaining optimal nutrient intake through supplementation, it can have huge impacts on your health. It is the basic equation that people have too many bad things coming into the body, and lack the nutritional reserve to deal with them, that leads most people to ill health. BioSignature method allows you to take a proactive approach to optimal health. Hopefully after reading all of what you have read so far you have gathered the relevant information of which applies directly to you as AN INDIVIDUAL! You have to understand this report is based on every single piece of information you have provided to me."
+		94: "Since your goal is to specifically increase lean muscle mass and or drop body fat percent it is important for you to get your head around the concept of bodybuilding. Very few sports can compete with bodybuilding when it comes to managing hormones. Just look at the effect anabolic steroids have on athletes, turning men into supermen and women into superwomen (and sometimes super women into supermen!!!) - unfortunately these hormonal drugs do have side effects). And just as steroid hormones can build muscle - other hormones can cause unwanted fat stores in your back, legs, hips and, well ... you get the idea. With BioSignature, you can optimize your natural hormone levels. Many athletes lose their own anabolic hormones to stress, estrogen, and aging. Most strength coaches will agree that it is harder to put lean muscle on athletes today than it was 10-20 years ago. Combatting the toxins and hormonal imbalances that exist now is the way we want to restore your muscle building ability. When it comes to leaning out, the BioSignature program will help spot, reduce and optimize fat loss, decreasing the effort to get lean, lose weight, and conserving lean body mass in the process. Hopefully after reading all of what you have read so far you have gathered the relevant information of which applies directly to you as AN INDIVIDUAL! You have to understand this report is based on every single piece of information you have provided to me."
+		95: "Since your goal is to specifically decrease body fat percent it is important for you to get your head around the concept of the “conditioning side” of bodybuilding. Very few sports can compete with bodybuilding when it comes to managing hormones. Just look at the effect anabolic steroids have on athletes, turning men into supermen and women into superwomen (and sometimes super women into supermen!!!) - unfortunately these hormonal drugs do have side effects). And just as steroid hormones can build muscle - other hormones can cause unwanted fat stores in your back, legs, hips and, well ... you get the idea. With BioSignature, you can optimize your natural hormone levels to drop body fat from those specific areas of which are “priority” sites. Many people lose their own anabolic hormones to stress, estrogen, and aging. Combatting the toxins and hormonal imbalances that exist now is the way we want to restore your ability to burn fat from specific areas. When it comes to leaning out, the BioSignature program will help spot, reduce and optimize fat loss, decreasing the effort to get lean, lose weight, and conserving lean body mass in the process. Hopefully after reading all of what you have read so far you have gathered the relevant information of which applies directly to you as AN INDIVIDUAL! You have to understand this report is based on every single piece of information you have provided to me."
 	}
 }
