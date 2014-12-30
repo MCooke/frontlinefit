@@ -2,18 +2,12 @@
 $( '.do-submitBioSig' ).on( 'click', function( event ) {
 	event.preventDefault();
 	window.location.hash = $( 'form' ).serialize();
+	getContent( );
 } );
 
-// When the hash gets changed, show some content
-// Make sure the hash is in the correct format for use later on
-$( window ).on( 'hashchange', function() {
-  var formData = window.location.hash.substring(1).replace(new RegExp("=", "g"), '').split( '&' );
-  getContent( formData );
-} );
+var getContent = function( ) {
 
-var getContent = function( givenAnswers ) {
-
-	console.log( givenAnswers );
+	var givenAnswers = window.location.hash.substring(1).replace(new RegExp("=", "g"), '').split( '&' );
 
 	// We are going to fill these in later
 	// Push the answers in, so we don't duplicate & to print at the end
@@ -32,11 +26,11 @@ var getContent = function( givenAnswers ) {
 
 		// If the current question has some content attached
 		if ( window.bioSigData.answers[ $this ].content ) {
-			var possibleAnswer = window.bioSigData.content[ window.bioSigData.answers[ $this ].content ];
+			var possibleAnswer = window.bioSigData.content[ window.bioSigData.answers[ $this ].content ] + '<br>';
 			// And we haven't said it already
 			if ( answers.indexOf( possibleAnswer ) == -1 && possibleAnswer != "" ) {
 				// Save it to the answers
-				answers.push( possibleAnswer + '<br>' );
+				answers.push( possibleAnswer );
 			}
 		}
 
@@ -48,7 +42,7 @@ var getContent = function( givenAnswers ) {
 				// loop over the inner pairs
 				$.each( window.bioSigData.answers[ $this ].pairs[ pairs ], function( key, value ) {
 					// Get the content for this pair
-					var pairedContent = window.bioSigData.content[ pairs ];
+					var pairedContent = window.bioSigData.content[ pairs ] + '<br>';
 
 					// Make sure we've had the other pair before
 					// And that we've not put this content in already
