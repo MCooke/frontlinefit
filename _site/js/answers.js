@@ -411,6 +411,54 @@ window.bioSigData = {
 				62: ["a8", "b8", "c9"]
 			}
 		},
+		q1: {
+			content: "91"
+		},
+		q2: {
+			content: "91"
+		},
+		q3: {
+			content: "90"
+		},
+		q4: {
+			content: "90"
+		},
+		q5: {
+			content: "89"
+		},
+		q6: {
+			content: "89"
+		},
+		q7: {
+			content: "90"
+		},
+		q8: {
+			content: "90"
+		},
+		q9: {
+			content: "89"
+		},
+		q10: {
+			content: "89"
+		},
+		q11: {
+			content: "90"
+		},
+		q12: {
+			content: "90"
+		},
+		q13: {
+			content: "89"
+		},
+		q14: {
+			content: "89"
+		},
+		q15: {
+			content: "90"
+		},
+		q16: {
+			content: "90"
+		},
 		v1: {
 			content: "0",
 		},
@@ -578,9 +626,9 @@ window.bioSigData = {
 		0: "",
 		1: "The chin and the cheek are the early detection system for fat loss in a new client. We measure these folds because they are usually the first areas to change. These sites aren't linked to any particular hormone imbalance but act as an indicator as to whether or not the plan is effective.",
 		2: "Pectoral and/or triceps - These two sites are what are called “The BioSignature androgen sites”. High pectoral or high tricep readings in men can reflect an androgen imbalance which makes it far more difficult to add lean muscle mass. This is particularly so when both pectoral and triceps have high readings. By monitoring and modulating these sites, you produce more testosterone naturally. You also prevent aromatization. Aromatization is a counter-productive metabolic process that is the result of the chemical conversion of testosterone to estrogen (female hormone), which for males can result in severe cases of gynecomastia (fatty breast tissue behind the nipple area) and for women “flabby bingo wings” (fatty looking triceps).",
-		3: "Answer: Subscapularis (back fat) or iliac Crest (love handles) are two sites of which are predictors of insulin management and blood sugar regulation. The subscapularis is most closely related to your genetic sensitivity of your own insulin. The iliac crest, while also a measure of relative insulin resistance, is also a marker for recent insulin management - therefore it is relatively easy for me to take note of two things: do you need to lower your carbohydrate intake, and informs me of weather you are following the diet or not! This is a polite way of saying how many carbohydrates or CAKES you have been eating. Proper insulin management is of prime importance in achieving fat loss, as well as preventing diabetes Type II. Some would go as far as to say that the more insulin you produce, the faster you age. Luckily with our plan, this is one of the easiest hormones to control by yourself. People who learn to manage their insulin properly usually show dramatic improvements in body composition and body fat within a short time.",
+		3: "Subscapularis (back fat) or iliac Crest (love handles) are two sites of which are predictors of insulin management and blood sugar regulation. The subscapularis is most closely related to your genetic sensitivity of your own insulin. The iliac crest, while also a measure of relative insulin resistance, is also a marker for recent insulin management - therefore it is relatively easy for me to take note of two things: do you need to lower your carbohydrate intake, and informs me of weather you are following the diet or not! This is a polite way of saying how many carbohydrates or CAKES you have been eating. Proper insulin management is of prime importance in achieving fat loss, as well as preventing diabetes Type II. Some would go as far as to say that the more insulin you produce, the faster you age. Luckily with our plan, this is one of the easiest hormones to control by yourself. People who learn to manage their insulin properly usually show dramatic improvements in body composition and body fat within a short time.",
 		4: "The Midaxillary fold is associated with functioning of the thyroid gland. The functioning of the thyroid gland is dependent upon proper levels of zinc, iodine, and other trace minerals, as well as the relative absence of toxins, such as heavy metals. It therefore indicates how effective your metabolism works and if you are burning enough calories at rest. Which at the moment for YOU is not the case.",
-		5: "Answer: It is estimated that we have over 100 times more stress then our grandparents. It’s no surprise that a large portion of people struggling to lose weight around the middle (like yourself) are suffering from elevated cortisol. There are numerous causes for this, and laboratory testing can be inaccurate due to the fact that the effects of cortisol happen over weeks and months. BioSignature not only tells you if cortisol is an issue, it also helps narrow down why it is an issue and what you can do about it. More importantly, it gives you practical solutions for your lifestyle, because for most of us, quitting our jobs and hiring a full time assistant are not viable options. Elevated stress and cortisol levels increase abdominal fat, and make it harder for your body to regulate insulin. Cortisol is an adrenal hormone that is made in response to stressful circumstances – training, working, business negotiations, relationships, alcohol consumption, poor sleep quality etc. Fat around the belly button is a reflection of demand for cortisol production. The demand for production of cortisol is what affects the thickness site, not the level of cortisol that you actually produce. The level of cortisol you are able to produce is a function of the strength and nutritional status of your adrenal glands. Due to the fact that stomach fat is currently a high priority, it is extremely important that we reduce any possible situations of which may include long bouts of cortisol production on a daily basis caused by interacting with stressful situations. This means - no aerobic/cardio activity, ensuring we are fully hydrated, not over consuming alcohol, sugar, caffine etc. I will also put together a list further on in this report with more information to assist you.",
+		5: "It is estimated that we have over 100 times more stress then our grandparents. It’s no surprise that a large portion of people struggling to lose weight around the middle (like yourself) are suffering from elevated cortisol. There are numerous causes for this, and laboratory testing can be inaccurate due to the fact that the effects of cortisol happen over weeks and months. BioSignature not only tells you if cortisol is an issue, it also helps narrow down why it is an issue and what you can do about it. More importantly, it gives you practical solutions for your lifestyle, because for most of us, quitting our jobs and hiring a full time assistant are not viable options. Elevated stress and cortisol levels increase abdominal fat, and make it harder for your body to regulate insulin. Cortisol is an adrenal hormone that is made in response to stressful circumstances – training, working, business negotiations, relationships, alcohol consumption, poor sleep quality etc. Fat around the belly button is a reflection of demand for cortisol production. The demand for production of cortisol is what affects the thickness site, not the level of cortisol that you actually produce. The level of cortisol you are able to produce is a function of the strength and nutritional status of your adrenal glands. Due to the fact that stomach fat is currently a high priority, it is extremely important that we reduce any possible situations of which may include long bouts of cortisol production on a daily basis caused by interacting with stressful situations. This means - no aerobic/cardio activity, ensuring we are fully hydrated, not over consuming alcohol, sugar, caffine etc. I will also put together a list further on in this report with more information to assist you.",
 		6: "Yet due to the fact Umbilicus (stomach) is only third priority, it is crucial that we take this one step at a time and focus on the first two before we focus directly on the stomach. The quicker you are successful with the first two, the sooner we can specifically target ‘spot reduction’ for the stomach.",
 		7: "The knee and calf sites are a function of growth hormone (GH) production according to Biosignature Modulation™. The knee tends to be indicative of more immediate improvements in growth hormone production, while the calf changes more slowly. Both of these sites tend to improve when sleep quality, quantity, or both increase alongside a strength training program.",
 		8: "Biosignature Modulation™ states that the sites of the quadriceps and hamstrings are a function of estrogen levels and estrogen ratios. This is a common BioSignature™ site in females or males who carry ‘higher than average’ female hormones. Through dietary intervention, supplementation, and lifestyle management – Biosignature Modulation™ helps you turn on the lypolitic (fat burning) genes and turn off the lypogenic (fat storing) ones.",
@@ -663,6 +711,9 @@ window.bioSigData = {
 		85: "Waking Between 1-3am= Poor Liver function. Your liver is working too hard to detoxify you and that increases your metabolism=waking up. This is a well know Eastern Medicine philosophy and using Liver and Gallbladder detoxifying vitamins will help. Also Magnesium Glycinate is great for this.",
 		86: "Waking Between 3-5 AM= Lung Meridian and Oxidative Stress. Your antioxidant status is too low, this is very common during menopause. Increasing you antioxidant status, especially Vitamin E and Vitamin C will help tremendously with this. Also, take in more “green” powdered fruit and veggie drinks.",
 		87: "Waking before 5-7AM= or right before you are to typically wake up = sometimes triple warmer and poor thyroid function. Eat more protein and detoxify. This could also be poor Colon and Large Intestine health, and increasing fibre and probiotics will help this.",
-		88: "Due to the fact that you hardly wake up at night means this is a particular area of sleep/recovery and a “variable” of which doesn’t need to be addressed and therefore makes my life/job much easier! So for that I say - THANK YOU! :-)"
+		88: "Due to the fact that you hardly wake up at night means this is a particular area of sleep/recovery and a “variable” of which doesn’t need to be addressed and therefore makes my life/job much easier! So for that I say - THANK YOU! :-)",
+		89: "Due to the fact that you have mentioned you do not eat many meals per day, I think it is important for me to make you aware that... when you are not eating enough regular meals per day and essentially “starving your body” it is NOT WORKING FOR YOU!... And that is simply because when you don’t eat, you often experience low blood glucose, or hypoglycemia, during which adrenaline is released to elevate blood sugar to keep you going. This leads to sharp elevations in glucose and insulin, causing insulin resistance and impeding fat loss. Hypoglycemia can also lead to chronically imbalanced hormone production—a classic example of a “broken” body. This is where you are at currently if you are over weight yet don’t eat “very often”. Ladies, be aware that there’s also evidence that “intermittent fasting” and hypoglycemia can inhibit fertility and lead to more negative physiological changes in women than what men experience. Intermittent fasting is not all golden for men either—rodent studies suggest skipping meals can produce adrenal dysfunction.“I’m not a morning person”.... “I don’t eat breakfast” The reality for most people is that if they get breakfast right, and thus get their day off to a ‘healthy’ start, they are likely to make better choices throughout the day.  This is something to do with blood sugar management and appetite regulation, but perhaps more to do with starting the day with mindful and positive choices about certain goals and overall health.  Start the day with that mindset and it will more than likely filter through to the rest of your day. Breakfast is the most challenging meal of the day to get ‘right’ for most people, no doubt.  Partly because we’re time poor (don’t have or don’t make time?), and partly because we have preconceived ideas about what is and what is not a ‘breakfast food’.  READ YOUR BLACK PACK ABOUT MEAT AND NUT BREAKFAST! Yet ‘all in all’, if you are reaching your “protein, carb and fat” goal, (of which you shall receive via your “weekly suggestions based on body weight”)...then I don’t give a rats ass how many meals/snacks you eat per day.",
+		90: "Approximately 75% of people are carb intolerant and should not be eating grains;  you must eat protein with every meal - even breakfast. A meat and nut breakfast will make you leaner even if you do not change the rest of your diet. It is best if you rotate the meat each breakfast. You stated that you eat around 6 or so total meals and/or with snacks per day which is great, however you MUST make sure protein is included with each meal... plus smart fats where possible. One of the biggest secrets most of my clients who have had amazing results in the past have shared was to have a bowl of broccoli, cauliflower or green beans with every meal possible. Most people haven’t got the guts to force themselves to do this but those who do this will experience rapid fat loss. The more greens in your diet, the leaner you will become, due to the thermogenic effect of these foods. Whole proteins such as meat and fish are also very thermogenic and will result in rapid fat loss when eaten consistently.",
+		91: "You answered that your eating habits include low or no meals per day, yet you snack a lot...The reality for most people is that if they get breakfast right, and thus get their day off to a ‘healthy’ start, they are likely to make better choices throughout the day.  This is something to do with blood sugar management and appetite regulation, but perhaps more to do with starting the day with mindful and positive choices about certain goals and overall health.  Start the day with that mindset and it will more than likely filter through to the rest of your day. Breakfast is the most challenging meal of the day to get ‘right’ for most people, no doubt.  Partly because we’re time poor (don’t have or don’t make time?), and partly because we have preconceived ideas about what is and is not a ‘breakfast food’.  READ YOUR BLACK PACK ABOUT MEAT AND NUT BREAKFAST!"
 	}
 }

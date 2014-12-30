@@ -28,11 +28,13 @@ var getContent = function( givenAnswers ) {
 		// Save the question so we can check for pairs
 		previousQuestions[ $this ] = true;
 
+		console.log( $this );
+
 		// If the current question has some content attached
 		if ( window.bioSigData.answers[ $this ].content ) {
 			var possibleAnswer = window.bioSigData.content[ window.bioSigData.answers[ $this ].content ];
 			// And we haven't said it already
-			if ( answers.indexOf( possibleAnswer ) == -1 ) {
+			if ( answers.indexOf( possibleAnswer ) == -1 && possibleAnswer != "" ) {
 				// Save it to the answers
 				answers.push( possibleAnswer + '<br>' );
 			}
@@ -40,7 +42,6 @@ var getContent = function( givenAnswers ) {
 
 		// If we have pairs on the current answer
 		if ( window.bioSigData.answers[ $this ].pairs ) {
-			console.log( $this + ' has a pair' )
 			var groupedPairs = window.bioSigData.answers[ $this ].pairs
 			// Loop over all pair groups possible
 			for ( var pairs in groupedPairs ) {
@@ -51,7 +52,7 @@ var getContent = function( givenAnswers ) {
 
 					// Make sure we've had the other pair before
 					// And that we've not put this content in already
-					if ( previousQuestions[value] && answers.indexOf( pairedContent ) == -1 ) {
+					if ( previousQuestions[value] && answers.indexOf( pairedContent ) == -1 && possibleAnswer != "" ) {
 						// Save it to the answers
 						answers.push( pairedContent );
 					}
@@ -60,5 +61,8 @@ var getContent = function( givenAnswers ) {
 		};
 
 	}
-	console.log( answers );
+
+	$( 'form' ).hide();
+	$( '#bioSigOutput' ).html( answers );
+
 }
