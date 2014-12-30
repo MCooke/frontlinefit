@@ -5389,6 +5389,18 @@ button.close {
     float: right;
     margin: auto;
     display: inline-block; } }
+.social_facebook {
+  background-color: #3b559e;
+  background-color: rgba(59, 85, 158, 0.3); }
+
+.social_twitter {
+  background-color: #2badea;
+  background-color: rgba(43, 173, 234, 0.3); }
+
+.social_google {
+  background-color: #bb2b30;
+  background-color: rgba(187, 43, 48, 0.3); }
+
 .table {
   display: flex;
   flex-wrap: wrap; }

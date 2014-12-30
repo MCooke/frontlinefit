@@ -76,59 +76,19 @@
 	}
 }
 
-.table {
-	display: flex;
-	flex-wrap: wrap;
-	input[type=checkbox], input[type=radio] {
-		display: inline-block;
-		margin: 5px;
-	}
-	.table-cell {
-		border: 1px solid;
-		padding: 10px;
-		&_header {
-			font-weight: 700;
-		}
-	}
-	.table-row_header {
-		margin-top: 1em;
-		font-weight: 700;
-		.table-cell {
-			border: 0;
-			padding: 10px 0;
-		}
-	}
+.social_facebook {
+	background-color: #3b559e;
+	background-color: rgba( 59, 85, 158, 0.3 );
 }
 
-.table-row {
-	flex: 1 0 100%;
-	display: flex;
+.social_twitter {
+	background-color: #2badea;
+	background-color: rgba( 43, 173, 234, 0.3 );
 }
 
-.table-cell {
-	flex: 0 1 100%;
+.social_google {
+	background-color: #bb2b30;
+	background-color: rgba( 187, 43, 48, 0.3 );
 }
 
-.ie {
-	.table {
-		display: table;
-		border-collapse: collapse;
-	}
-	.table-row {
-		display: table-row;
-		width: 100%;
-	}
-	.table-row_header {
-		margin-top: 1em;
-		font-weight: 700;
-		.table-cell {
-			border: 0;
-			padding: 30px 15px;;
-		}
-	}
-	.table-cell {
-		display: table-cell;
-		padding: 10px;
-		border: 1px solid;
-	}
-}
+@import "_biosig.scss";

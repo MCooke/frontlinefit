@@ -22,8 +22,6 @@ var getContent = function( ) {
 		// Save the question so we can check for pairs
 		previousQuestions[ $this ] = true;
 
-		console.log( $this );
-
 		// If the current question has some content attached
 		if ( window.bioSigData.answers[ $this ].content ) {
 			var possibleAnswer = window.bioSigData.content[ window.bioSigData.answers[ $this ].content ] + '<br>';
@@ -62,12 +60,9 @@ var getContent = function( ) {
 }
 
 $( function() {
-	console.log( 'ready' );
 	if ( window.location.hash ) {
-		console.log('in if');
 		$.each( window.location.hash.substring(1).split( '&' ), function( key, value ) {
 			var currentValue = value.split( '=' );
-			console.log( currentValue );
 			$("input[name='" + currentValue[0] + "'][value='" + currentValue[1] + "']").attr( 'checked', true )
 		} );
 	}
