@@ -1,3 +1,4 @@
 baseurl: /frontlinefit
-
+sass:
+sass_dir: _sass
 exclude: ['node_modules', 'resource']
