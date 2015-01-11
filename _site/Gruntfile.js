@@ -4,7 +4,7 @@
 module.exports = function( grunt ) {
 
 	var tasks = {
-		styles : ['sass', 'cssmin', 'scsslint'],
+		styles : ['sass', 'cssmin'],
 		scripts: ['uglify', 'jscs']
 	}
 
@@ -58,6 +58,9 @@ module.exports = function( grunt ) {
 		},
 		uglify: {
 			all_files: {
+				options: {
+					beautify: true,
+				},
 				files: {
 					'js/general.min.js': ['src/scripts/general.js'],
 				}

@@ -1,0 +1,61 @@
+{
+	"answers": {
+		"milk": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"eggs": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"peanuts": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"treeNuts": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"fish": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"shellfish": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"soy": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"wheat": {
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"none": {
+			"a": 2,
+			"b": 2,
+			"c": 2
+		},
+	},
+	"content": {
+		"0": " ",
+		"1": "Because you do not suffer from any food intolerance - or simply you are unaware of any ‘intolerance’ due to small or unnoticeable side effects, it would be wise to eliminate the majority of them from your diet for the meantime - such as wheat, dairy, soy, yeast and corn (possibly eggs & nuts on the odd occasion to “self test” via elimination and reintroduction diet mentioned above). Simply reducing exposure to these foods may reduce the stress on the gastrointestinal and immune system lowering stress hormone output which obviously leads to a reduction in the Umbilicus site! However, if this is not an issue for you I would just strongly suggest the elimination of the ones highlighted in bold writing only - for now at least.",
+		"2": "Especially (Insert here chosen intolerance) as this will be a major influence towards “leaky gut” syndrome if you do not avoid contact over the coming weeks/months. Simply reducing exposure to this type of food may reduce the stress on the gastrointestinal and immune system thereby lowering stress hormone output which will obviously lead to a reduction in Umbilicus site!"
+	},
+	"nextQuestions": {
+		"onceWeek": "Once per week",
+		"coupleWeek": "A couple of times per week",
+		"onceDay": "Once per day (any time)",
+		"twiceDay": "Once in morning & once at night",
+		"moreTwiceDay": "more than twice per day"
+	}
+}

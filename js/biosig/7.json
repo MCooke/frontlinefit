@@ -1,0 +1,30 @@
+{
+	"answers": {
+		"low":{
+			"a": 1,
+			"b": 2,
+			"c": 3
+		},
+		"medium":{
+			"a": 0,
+			"b": 0,
+			"c": 0
+		},
+		"high":{
+			"a": 0,
+			"b": 0,
+			"c": 0
+		}
+	},
+	"content": {
+		"0": " ",
+		"1": "Due to psychological stress not specifically being an issue for you, this defeats one possible route for your belly fat to increase.",
+		"2": "You also answered low (1-3) in regards to current physical stress, this defeats the other possible route for your belly fat to increase.",
+		"3": " Overall, your stress levels seem fairly low, and this, to a certain degree, makes our job much easier to monitor and control stomach fat through chronic stress and cortisol production."
+	},
+	"nextQuestions": {
+		"low": "1-3",
+		"medium": "4-7",
+		"high": "8-10"
+	}
+}

@@ -1,0 +1,450 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="Front line fit">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Fugaz+One|Oxygen:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="/frontlinefit/css/main.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-default container-fluid" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Frontline Fit</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="productTemplate.html">Fit Camp</a></li>
+				<li><a href="#">Strenth Camp</a></li>
+				<li><a href="#">Personal Training</a></li>
+				<li><a href="#">Online Training</a></li>
+				<li><a href="#">Community</a></li>
+				<li><a href="aboutTrainer.html">About</a></li>
+			</ul>
+		</div>
+	</nav>
+
+<section class="container">
+
+	<p>The BioSignature is designed to assess and create protocols of which include information about the following:</p>
+	<ul>
+		<li>Sleep</li>
+		<li>Energy Levels</li>
+		<li>Digestion and Gut health</li>
+		<li>Toxicity, Detoxification, and Liver Function</li>
+		<li>Thyroid function</li>
+		<li>Insulin sensitivity</li>
+		<li>Androgens (testosterone)</li>
+		<li>Gtable-rowth Hormone</li>
+		<li>Estrogen and Women’s Health</li>
+		<li>Stress</li>
+		<li>Training Analysis</li>
+		<li>Menopausal symptoms</li>
+		<li>Allergies</li>
+		<li>Body Composition (Body Fat/Muscle Mass)</li>
+	</ul>
+
+	<p id="bioSigOutput"></p>
+
+	<form>
+		<div class="table">
+			<div class="table-row table-row_header">
+				<span class="table-cell">Top 3 priority sites</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Site</span>
+				<span class="table-cell table-cell_header">A</span>
+				<span class="table-cell table-cell_header">B</span>
+				<span class="table-cell table-cell_header">C</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Chin</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="1"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="1"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="1"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Cheek</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="2"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="2"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="2"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Pec</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" checked value="3"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="3"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="3"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Triceps</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="4"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="4"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="4"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Subscapularis</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="5"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="5"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="5"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Midaxcillary</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="6"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="6"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="6"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Iliac Crest</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="7"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="7"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="7"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Umbilicus</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="8"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" checked value="8"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="8"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Knee</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="9"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="9"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="9"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Calves</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="10"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="10"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="10"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Quadricep</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="11"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="11"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="11"></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Hamstring</span>
+				<span class="table-cell"><input class="radio" type="radio" name="a" value="12"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="b" value="12"></span>
+				<span class="table-cell"><input class="radio" type="radio" name="c" value="12"></span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Zinc test</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="d" value="1">No taste</span>
+				<span class="table-cell"><input class="radio" type="radio" name="d" value="2">Mild taste</span>
+				<span class="table-cell"><input class="radio" type="radio" name="d" value="3">Strong taste</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">HCL</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="e" value="1">1 tab (200mg)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="e" value="2">2 tab (400mg)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="e" value="3">3 tab (600mg)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="e" value="4">4 tab (800mg)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="e" value="5">5 tab (1000mg)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="e" value="6">6 tab (1200mg)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="e" value="7">7 tab (1400mg)</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Food allergies</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="f" value="1">Milk</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="f" value="2">Eggs</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="f" value="3">Peanuts</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="f" value="4">Tree nuts (such as almonds cashews walnuts)</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="f" value="5">Fish (such as bass, cod, flounder)</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="f" value="6">Shellfish (such as crab, lobster, shrimp)</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="f" value="7">Soy</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="f" value="8">Wheat</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="f" value="9">None</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Stool</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="ff" value="1">Once per week</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ff" value="2">A couple of times per week</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ff" value="3">Once per day (any time)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ff" value="4">Once in the morning &amp; once at night</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ff" value="5">More than twice per day</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Stool experience</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="gg" value="1">I'm regularly constipated</span>
+				<span class="table-cell"><input class="radio" type="radio" name="gg" value="2">Sometimes I'm constipated</span>
+				<span class="table-cell"><input class="radio" type="radio" name="gg" value="3">I'm rarely constipated</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">(Scale of 1 - 10)<br/>1-3 = very low<br/>4-7 = moderate<br/>8-10 = very high</span>
+				<span class="table-cell">Psychological/Emotional (Taking into consideration work and relationships)
+				Physical Stress (Taking into consideration and job description and physical exercise volume)
+				Overall stress</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="g" value="1">1-3</span>
+				<span class="table-cell"><input class="radio" type="radio" name="g" value="2">4-7</span>
+				<span class="table-cell"><input class="radio" type="radio" name="g" value="3">8-10</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="h" value="1">1-3</span>
+				<span class="table-cell"><input class="radio" type="radio" name="h" value="2">4-7</span>
+				<span class="table-cell"><input class="radio" type="radio" name="h" value="3">8-10</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="i" value="1">1-3</span>
+				<span class="table-cell"><input class="radio" type="radio" name="i" value="2">4-7</span>
+				<span class="table-cell"><input class="radio" type="radio" name="i" value="3">8-10</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Energy</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Morning energy</span>
+				<span class="table-cell"><input class="radio" type="radio" name="j" value="1">Low</span>
+				<span class="table-cell"><input class="radio" type="radio" name="j" value="2">Moderate</span>
+				<span class="table-cell"><input class="radio" type="radio" name="j" value="3">Mixed</span>
+				<span class="table-cell"><input class="radio" type="radio" name="j" value="4">Wired</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Mid day energy</span>
+				<span class="table-cell"><input class="radio" type="radio" name="k" value="1">Low</span>
+				<span class="table-cell"><input class="radio" type="radio" name="k" value="2">Moderate</span>
+				<span class="table-cell"><input class="radio" type="radio" name="k" value="3">Mixed</span>
+				<span class="table-cell"><input class="radio" type="radio" name="k" value="4">Wired</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Night time energy</span>
+				<span class="table-cell"><input class="radio" type="radio" name="l" value="1">Low</span>
+				<span class="table-cell"><input class="radio" type="radio" name="l" value="2">Moderate</span>
+				<span class="table-cell"><input class="radio" type="radio" name="l" value="3">Mixed</span>
+				<span class="table-cell"><input class="radio" type="radio" name="l" value="4">Wired</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Water</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="m" value="1">None</span>
+				<span class="table-cell"><input class="radio" type="radio" name="m" value="2">1-2 cups</span>
+				<span class="table-cell"><input class="radio" type="radio" name="m" value="3">3-5 cups</span>
+				<span class="table-cell"><input class="radio" type="radio" name="m" value="4">2-3 litres (6-9cups)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="m" value="5">4-5 litres (10 Cups)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="m" value="6">More than 5 litres (11+ Cups)</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Water quliaty</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="n" value="1">Tap</span>
+				<span class="table-cell"><input class="radio" type="radio" name="n" value="2">Bottled/filtered</span>
+				<span class="table-cell"><input class="radio" type="radio" name="n" value="3">Mixed</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Diet Quality <br/>(Perceived Diet 1-10) <br/>1-3 = Low/Poor<br/>4-7 = Average/</Mixed<br/>8-10 = High</th>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="ii" value="1">1-3</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ii" value="2">4-7</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ii" value="3">8-10</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Breakfast type</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="o" value="1">Typical western breakfast (toast, cereal, pancakes, baked goods)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="o" value="2">Fruit or Juice</span>
+				<span class="table-cell"><input class="radio" type="radio" name="o" value="3">Meat, eggs and/or Nut</span>
+				<span class="table-cell"><input class="radio" type="radio" name="o" value="4">Nothing until later</span>
+				<span class="table-cell"><input class="radio" type="radio" name="o" value="5">Coffee or Tea only</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Alchohol consumption</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell"><input class="radio" type="radio" name="p" value="1">None</span>
+				<span class="table-cell"><input class="radio" type="radio" name="p" value="2">Occasionally on special occasions but don't get drunk (1-2 glass)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="p" value="3">A few drinks at the end of the week (3-5 glasses)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="p" value="4">One drink at the end of my day - most days (1 glass per day)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="p" value="5">Weekend only - to get drunk (no limit on certain days)</span>
+				<span class="table-cell"><input class="radio" type="radio" name="p" value="6">Weekdays and weekends - both to get drunk (no limit for any day)</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Meal frequency/Snack frequency</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Per day</span>
+				<span class="table-cell table-cell_header">5 + snacks</span>
+				<span class="table-cell table-cell_header">3 - 4 snacks</span>
+				<span class="table-cell table-cell_header">1 - 2 snacks</span>
+				<span class="table-cell table-cell_header">None</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">No meals</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="1"></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="5"></span></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="9"></span></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="13"></span></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">1 - 2 meals</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="2"></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="6"></span></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="10"></span></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="14"></span></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">3 - 4 meals</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="3"></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="7"></span></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="11"></span></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="15"></span></span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">5+ meals</span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="4"></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="8"></span></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="12"></span></span>
+				<span class="table-cell"><input class="checkbox" type="checkbox" name="q" value="16"></span></span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Estrogen analysis</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Use of non organic creams/soaps/gels/make up</span>
+				<span class="table-cell"><input class="radio" type="radio" name="v" value="1">Low</span>
+				<span class="table-cell"><input class="radio" type="radio" name="v" value="2">Moderate</span>
+				<span class="table-cell"><input class="radio" type="radio" name="v" value="3">High</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Soy intake per week</span>
+				<span class="table-cell"><input class="radio" type="radio" name="w" value="1">Low</span>
+				<span class="table-cell"><input class="radio" type="radio" name="w" value="2">Moderate</span>
+				<span class="table-cell"><input class="radio" type="radio" name="w" value="3">High</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Showers per day</span>
+				<span class="table-cell"><input class="radio" type="radio" name="x" value="1">Low</span>
+				<span class="table-cell"><input class="radio" type="radio" name="x" value="2">Moderate</span>
+				<span class="table-cell"><input class="radio" type="radio" name="x" value="3">High</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Contact with chemicals and products</span>
+				<span class="table-cell"><input class="radio" type="radio" name="y" value="1">Low</span>
+				<span class="table-cell"><input class="radio" type="radio" name="y" value="2">Moderate</span>
+				<span class="table-cell"><input class="radio" type="radio" name="y" value="3">High</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Heavy resistance training (1-5 REPS)</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Sessions per week</span>
+				<span class="table-cell"><input class="radio" type="radio" name="z" value="1">None</span>
+				<span class="table-cell"><input class="radio" type="radio" name="z" value="2">1-2</span>
+				<span class="table-cell"><input class="radio" type="radio" name="z" value="3">3-5</span>
+				<span class="table-cell"><input class="radio" type="radio" name="z" value="4">6+</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Cardio (aerobic activity)</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Sessions per week</span>
+				<span class="table-cell"><input class="radio" type="radio" name="aa" value="1">None</span>
+				<span class="table-cell"><input class="radio" type="radio" name="aa" value="2">1-2</span>
+				<span class="table-cell"><input class="radio" type="radio" name="aa" value="3">3-5</span>
+				<span class="table-cell"><input class="radio" type="radio" name="aa" value="4">6+</span>
+			</div>
+			<div class="table-row table-row_header">
+				<span class="table-cell">Sleep</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Hours per day</span>
+				<span class="table-cell"><input class="radio" type="radio" name="bb" value="1">1-2</span>
+				<span class="table-cell"><input class="radio" type="radio" name="bb" value="2">3-4</span>
+				<span class="table-cell"><input class="radio" type="radio" name="bb" value="3">4-6</span>
+				<span class="table-cell"><input class="radio" type="radio" name="bb" value="4">7-8</span>
+				<span class="table-cell"><input class="radio" type="radio" name="bb" value="4">8+</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">How long does it take you to switch off</span>
+				<span class="table-cell"><input class="radio" type="radio" name="cc" value="1">No problem</span>
+				<span class="table-cell"><input class="radio" type="radio" name="cc" value="2">takes 30 mins</span>
+				<span class="table-cell"><input class="radio" type="radio" name="cc" value="3">takes 1 hour</span>
+				<span class="table-cell"><input class="radio" type="radio" name="cc" value="4">I usually have to watch TV or read a book until I feel tired so could be 15 mins or 2 hours</span>
+				<span class="table-cell"><input class="radio" type="radio" name="cc" value="5">it takes me longer than 2 hours to switch off</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Quality of sleep</span>
+				<span class="table-cell"><input class="radio" type="radio" name="dd" value="1">Wake up once for the toilet.</span>
+				<span class="table-cell"><input class="radio" type="radio" name="dd" value="2">Wake up more than once for the toilet.</span>
+				<span class="table-cell"><input class="radio" type="radio" name="dd" value="3">Wake up to check the new baby who might be crying</span>
+				<span class="table-cell"><input class="radio" type="radio" name="dd" value="4">Wake up for no reason 1-2 hours after I fall to sleep.</span>
+				<span class="table-cell"><input class="radio" type="radio" name="dd" value="5">Wake up around 3-4 hours after I have been to sleep.</span>
+				<span class="table-cell"><input class="radio" type="radio" name="dd" value="6">Wake up 5-6 hours after I fall asleep</span>
+				<span class="table-cell"><input class="radio" type="radio" name="dd" value="7">Wake up very early 1-2 hours before I need to be awake.</span>
+				<span class="table-cell"><input class="radio" type="radio" name="dd" value="8">Don’t wake up at all</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Do you wake up only with an alarm?</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ll" value="1">Yes</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ll" value="2">No</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Do you go to bed later than 11 pm?</span>
+				<span class="table-cell"><input class="radio" type="radio" name="llb" value="1">Yes</span>
+				<span class="table-cell"><input class="radio" type="radio" name="llb" value="2">No</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Do you sleep in a room with any light or noise?</span>
+				<span class="table-cell"><input class="radio" type="radio" name="llc" value="1">Yes</span>
+				<span class="table-cell"><input class="radio" type="radio" name="llc" value="2">No</span>
+			</div>
+			<div class="table-row">
+				<span class="table-cell table-cell_header">Goal</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ee" value="1">Too increase muscle mass only</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ee" value="2">Too decrease body fat % only</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ee" value="3">Too increase sports performance</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ee" value="4">Too increase muscle mass and decrease body fat % together.</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ee" value="5">Too gain maximum levels of fitness and health</span>
+				<span class="table-cell"><input class="radio" type="radio" name="ee" value="6">Other (Please explain below in more detail)</span>
+			</div>
+		</div>
+		<button class="btn do-submitBioSig" type="button">Submit</button>
+	</form>
+</section>
+
+<script type="text/javascript">
+	function downloadJSAtOnload() {
+		var element = document.createElement("script");
+		element.src = "js/answers.js";
+		document.body.appendChild(element);
+	}
+	if (window.addEventListener)
+	window.addEventListener("load", downloadJSAtOnload, false);
+	else if (window.attachEvent)
+	window.attachEvent("onload", downloadJSAtOnload);
+	else window.onload = downloadJSAtOnload;
+</script>
+
+	<footer class="container">
+		<p class="text">Frontline Fit Copyright</p>
+		<small class="">Crafted by <a href="#"><span class="">the space between.</span></a></small>
+	</footer>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="/frontlinefit/js/general.min.js"></script>
+</body>
+</html>

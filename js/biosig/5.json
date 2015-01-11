@@ -1,0 +1,39 @@
+{
+	"answers": {
+		"onceWeek":{
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"coupleWeek":{
+			"a": 1,
+			"b": 1,
+			"c": 1
+		},
+		"onceDay":{
+			"a": 2,
+			"b": 2,
+			"c": 2
+		},
+		"twiceDay":{
+			"a": 2,
+			"b": 2,
+			"c": 2
+		},
+		"moreTwiceDay":{
+			"a": 2,
+			"b": 2,
+			"c": 2
+		}
+	},
+	"content": {
+		"0": " ",
+		"1": "From the answer you have given to me it is quite clear that you are not going to the toilet as regularly as you should, for optimal health.<br/>Fibre is important for making solid stools and helping food move through the digestive tract; as such, it is a key factor in helping to prevent many digestive disorders.<br/>It would be wise of you to take a probiotic. Probiotics are tiny, “good” bacteria that naturally occur in the gastrointestinal tract and destroy harmful bacteria, improve bowel movements and aid digestion. Some rich sources of probiotics are dairy products such as yogurt; for those who have an intolerance to dairy products, probiotic supplements are available and more details on these are prescribed later on.",
+		"2": "Going off the answers you have given, food digestion  does not seem to be a major issue and toxin excretion through regular stool pattern is healthy, therefore we can focus our energy on more relevant components of regular hindering occurrence within your individual Biosigniture Modulation"
+	},
+	"nextQuestions": {
+		"regularly": "I’m regularly constipated",
+		"sometimes": "Sometimes I’m constipated",
+		"rarely": "I’m rarely constipated"
+	}
+}
