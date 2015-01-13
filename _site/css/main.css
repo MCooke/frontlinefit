@@ -4312,7 +4312,7 @@ a.list-group-item-danger {
 
 .panel {
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #424242;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -4515,30 +4515,30 @@ a.list-group-item-danger {
       border-bottom: 1px solid #ddd; }
 
 .panel-default {
-  border-color: #ddd; }
+  border-color: #424242; }
   .panel-default > .panel-heading {
     color: #757575;
-    background-color: #f5f5f5;
-    border-color: #ddd; }
+    background-color: #757575;
+    border-color: #424242; }
     .panel-default > .panel-heading + .panel-collapse > .panel-body {
-      border-top-color: #ddd; }
+      border-top-color: #424242; }
     .panel-default > .panel-heading .badge {
-      color: #f5f5f5;
+      color: #757575;
       background-color: #757575; }
   .panel-default > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #ddd; }
+    border-bottom-color: #424242; }
 
 .panel-primary {
   border-color: #ffca28; }
   .panel-primary > .panel-heading {
-    color: #fff;
+    color: #ffca28;
     background-color: #ffca28;
     border-color: #ffca28; }
     .panel-primary > .panel-heading + .panel-collapse > .panel-body {
       border-top-color: #ffca28; }
     .panel-primary > .panel-heading .badge {
       color: #ffca28;
-      background-color: #fff; }
+      background-color: #ffca28; }
   .panel-primary > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #ffca28; }
 
@@ -5369,6 +5369,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+section.container {
+  margin-top: 30px; }
+
 .trainer_name {
   font-size: 4em; }
 
@@ -5383,6 +5386,11 @@ button.close {
   position: relative;
   top: -15px;
   font-size: 24px; }
+
+.promo {
+  background-color: #424242; }
+  .promo img {
+    width: 100%; }
 
 @media (min-width: 768px) {
   .trainer_stat-image {

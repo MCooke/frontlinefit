@@ -54,6 +54,9 @@
 @import "./bootstrap/bootstrap/utilities";
 @import "./bootstrap/bootstrap/responsive-utilities";
 
+section.container{
+	margin-top: 30px;
+}
 
 .trainer_name{
 	font-size: 4em;
@@ -69,6 +72,13 @@
 	position: relative;
 	top: -15px;
 	font-size: 24px;
+}
+
+.promo{
+	background-color: $grey800;
+	img{
+		width: 100%;
+	}
 }
 
 @media (min-width: $screen-sm) {
