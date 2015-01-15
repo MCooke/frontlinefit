@@ -35,7 +35,7 @@
 
 <section class="container">
 
-	<p>The BioSignature is designed to assess and create protocols of which include information about the following:</p>
+	<p class="lead">The BioSignature is designed to assess and create protocols of which include information about the following:</p>
 	<ul>
 		<li>Sleep</li>
 		<li>Energy Levels</li>
@@ -55,14 +55,18 @@
 
 	<p id="bioSigOutput"></p>
 
-	<form>
+	<form class="form-inline">
+	  <div class="form-group">
+	    <label for="name">Name</label>
+	    <input type="text" id="name" class="form-control" name="name">
+	  </div>
+	  <div class="form-group">
+	    <label for="name">Weight in Kgs</label>
+	    <input type="number" id="weight" class="form-control" name="weight">
+	  </div>
 		<div class="table">
 			<div class="table-row table-row_header">
 				<span class="table-cell table-cell_header">Pick your top 3 places to lose fat on your body.</span>
-			</div>
-			<div class="table-row">
-				<span class="table-cell"><label for="name">Your name<input type="text" id="name" name="name"></label></span>
-				<span class="table-cell"><label for="weight">Your weight<input type="text" id="weight" name="weight"></label></span>
 			</div>
 			<div class="table-row">
 				<span class="table-cell table-cell_header">Site</span>
@@ -446,7 +450,7 @@
 				<span class="table-cell"><input class="radio" type="radio" name="ee" value="5">To gain maximum levels of fitness and health</span>
 			</div>
 		</div>
-		<button class="btn do-sendForm" type="button">Send to Frontline Fit for analysis</button>
+		<button class="btn btn-primary btn-block do-sendForm" type="button">Send to Frontline Fit for analysis</button>
 	</form>
 </section>
 
