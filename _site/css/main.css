@@ -1984,7 +1984,7 @@ pre {
 
   .col-lg-offset-12 {
     margin-left: 100%; } }
-table {
+table, .table {
   background-color: transparent; }
 
 caption {
@@ -5448,23 +5448,29 @@ section.container {
     display: inline-block;
     margin: 5px; }
   .table .table-cell {
-    border: 1px solid;
-    padding: 0; }
+    padding: 0;
+    text-align: center; }
     .table .table-cell_header {
+      text-align: left;
       font-weight: 700;
       flex: 0 1 100%; }
   .table .table-row_header {
     margin-top: 1em;
-    font-weight: 700; }
+    font-weight: 700;
+    border-bottom: 1px solid #fafafa; }
     .table .table-row_header .table-cell {
       border: 0;
       padding: 10px 0; }
 
 .table-row {
   flex: 1 0 100%;
-  display: flex; }
+  display: flex;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.1); }
   .table-row_column {
     flex-direction: column; }
+    .table-row_column .table-cell {
+      text-align: left; }
 
 .table-cell {
   flex: 0 1 40%; }
