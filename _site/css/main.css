@@ -5486,6 +5486,9 @@ section.container {
 input {
   color: #424242; }
 
+#bioSigOutput br {
+  line-height: 3em; }
+
 @media (min-width: 768px) {
   .table .table-cell {
     padding: 10px; } }
