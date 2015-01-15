@@ -5399,7 +5399,7 @@ section.container {
     display: inline-block; } }
 .social {
   height: 250px;
-  padding: 20px; }
+  padding: 10px; }
   .social_facebook .social-filter {
     background-color: #3b559e;
     background-color: rgba(59, 85, 158, 0.7); }
@@ -5426,7 +5426,8 @@ section.container {
 
 .social-logo {
   background-size: 25px !important;
-  padding-top: 35px; }
+  padding-top: 35px;
+  margin-top: 40px; }
 
 .social-name, .social-message {
   position: relative; }
@@ -5484,6 +5485,9 @@ section.container {
   display: table-cell;
   padding: 10px;
   border: 1px solid; }
+
+input {
+  color: #424242; }
 
 @media (min-width: 768px) {
   .table .table-cell {

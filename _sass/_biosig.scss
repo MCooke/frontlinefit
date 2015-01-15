@@ -59,6 +59,11 @@
 	}
 }
 
+
+input {
+	color: $grey800;
+}
+
 @media (min-width: $screen-sm-min) {
 	.table .table-cell{
 		padding: 10px;

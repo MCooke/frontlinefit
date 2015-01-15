@@ -1,42 +1,54 @@
 ---
 title: Product Template
+twitter: https://twitter.com/front_line_fit
+facebook: https://www.facebook.com/Frontlinefit
 social:
   - name: Luke Frake
     type: twitter
-    image: https://pbs.twimg.com/profile_images/2636500035/f18167a955952500fa4a79d30b76b4a0.jpeg
+    image: http://lorempixel.com/500/200/sports/
     message: Front line fit is awesome!
+    width: wide
   - name: Luke Frake
     type: facebook
-    image: https://pbs.twimg.com/profile_images/2636500035/f18167a955952500fa4a79d30b76b4a0.jpeg
+    image: http://lorempixel.com/300/200/sports/
     message: Front line fit is awesome!
-  - name: Luke Frake
-    type: google
-    image: https://pbs.twimg.com/profile_images/2636500035/f18167a955952500fa4a79d30b76b4a0.jpeg
-    message: Front line fit is awesome!
+    width: small
   - name: Luke Frake
     type: twitter
-    image: https://pbs.twimg.com/profile_images/2636500035/f18167a955952500fa4a79d30b76b4a0.jpeg
+    image: http://lorempixel.com/310/200/sports/
     message: Front line fit is awesome!
+    width: small
+  - name: Luke Frake
+    type: twitter
+    image: http://lorempixel.com/320/200/sports/
+    message: Front line fit is awesome!
+    width: wide
   - name: Luke Frake
     type: facebook
-    image: https://pbs.twimg.com/profile_images/2636500035/f18167a955952500fa4a79d30b76b4a0.jpeg
+    image: http://lorempixel.com/510/200/sports/
     message: Front line fit is awesome!
+    width: wide
   - name: Luke Frake
-    type: google
-    image: https://pbs.twimg.com/profile_images/2636500035/f18167a955952500fa4a79d30b76b4a0.jpeg
+    type: facebook
+    image: http://lorempixel.com/330/200/sports/
     message: Front line fit is awesome!
+    width: small
 ---
 
 {% include _header.html %}
 
 <section class="container">
 
+	<h1>Look at what our members have to say about us</h1>
+
 	{% for tile in page.social %}
-		<div class="social social_{{ tile.type }} col-xs-6 col-sm-4 col-lg-3" >
-			<div class="social-inner col-xs-12" style="background-image: url('{{ tile.image }}')">
-				<div class="social-filter col-xs-12" >&nbsp;</div>
-				<p class="social-message social-logo">&quot;{{ tile.message }}&quot; - {{ tile.name }}</p>
-			</div>
+		<div class="social social_{{ tile.type }} {% if tile.width == 'small' %}col-xs-6 col-sm-4{% else %}col-xs-12 col-sm-8{% endif %}" >
+			<a href="{{ page.[tile.type] }}" target="_blank">
+				<div class="social-inner col-xs-12" style="background-image: url('{{ tile.image }}')">
+					<div class="social-filter col-xs-12" >&nbsp;</div>
+					<p class="social-message social-logo">&quot;{{ tile.message }}&quot; - {{ tile.name }}</p>
+				</div>
+			</a>
 		</div>
 	{% endfor %}
 
