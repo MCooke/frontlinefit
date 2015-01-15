@@ -5448,7 +5448,7 @@ section.container {
     margin: 5px; }
   .table .table-cell {
     border: 1px solid;
-    padding: 10px; }
+    padding: 0; }
     .table .table-cell_header {
       font-weight: 700; }
   .table .table-row_header {
@@ -5481,3 +5481,7 @@ section.container {
   display: table-cell;
   padding: 10px;
   border: 1px solid; }
+
+@media (min-width: 768px) {
+  .table .table-cell {
+    padding: 10px; } }
