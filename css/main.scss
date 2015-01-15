@@ -81,7 +81,7 @@
 
 .social {
 	height: 250px;
-	padding: 20px;
+	padding: 10px;
 	&_facebook {
 		.social-filter {
 			background-color: #3b559e;
@@ -123,6 +123,7 @@
 .social-logo {
 	background-size: 25px!important;
 	padding-top: 35px;
+	margin-top: 40px;
 }
 
 .social-name, .social-message {

@@ -1,0 +1,30 @@
+---
+title: Product Template
+---
+
+{% include _header.html %}
+
+<section class="container">
+
+	<form>
+		<input type="text"><button class="btn do-submitBioSig" type="button">Submit</button>
+	</form>
+
+	<div id="bioSigOutput"></div>
+
+</section>
+
+<script type="text/javascript">
+	function downloadJSAtOnload() {
+		var element = document.createElement("script");
+		element.src = "js/answers.js";
+		document.body.appendChild(element);
+	}
+	if (window.addEventListener)
+	window.addEventListener("load", downloadJSAtOnload, false);
+	else if (window.attachEvent)
+	window.attachEvent("onload", downloadJSAtOnload);
+	else window.onload = downloadJSAtOnload;
+</script>
+
+{% include _footer.html %}

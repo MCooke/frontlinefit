@@ -1,13 +1,17 @@
 // When somebody submits, update the hash
 $( '.do-submitBioSig' ).on( 'click', function( event ) {
 	event.preventDefault();
-	window.location.hash = $( 'form' ).serialize();
-	getContent( );
+	getContent();
+} );
+
+$( '.do-sendForm' ).on( 'click', function( event ) {
+	event.preventDefault();
+	sendEmail();
 } );
 
 var getContent = function( ) {
 
-	var givenAnswers = window.location.hash.substring(1).replace(new RegExp("=", "g"), '').split( '&' );
+	var givenAnswers = $( 'input' ).val().replace(new RegExp("=", "g"), '').split( '&' );
 
 	// We are going to fill these in later
 	// Push the answers in, so we don't duplicate & to print at the end
@@ -59,11 +63,10 @@ var getContent = function( ) {
 
 }
 
-$( function() {
-	if ( window.location.hash ) {
-		$.each( window.location.hash.substring(1).split( '&' ), function( key, value ) {
-			var currentValue = value.split( '=' );
-			$("input[name='" + currentValue[0] + "'][value='" + currentValue[1] + "']").attr( 'checked', true )
-		} );
-	}
-} );
+function sendEmail(){
+	var submitToJames = document.createElement('a');
+	var name = $( 'input[name="name"]' ).val();
+	submitToJames.target = '_blank';
+	submitToJames.href = 'mailto:info@frontlinefit.com?subject=Biosig results from ' + name + '&body=My results where ' + $( 'form' ).serialize();
+	submitToJames.click();
+};
