@@ -7,7 +7,7 @@
 	}
 	.table-cell {
 		border: 1px solid;
-		padding: 10px;
+		padding: 0;
 		&_header {
 			font-weight: 700;
 		}
@@ -55,6 +55,13 @@
 	}
 }
 
+
 input {
 	color: $grey800;
+}
+
+@media (min-width: $screen-sm-min) {
+	.table .table-cell{
+		padding: 10px;
+	}
 }

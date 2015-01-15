@@ -6,23 +6,24 @@ strengthcamp: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At tenet
 ---
 
 {% include _header.html %}
-<div class="jumbotron">
-	<div class="container">
-		<div class="text-center">
-			<span class="h2">Don't get fit<br />get</span>
-			<h1 class="text-uppercase">Frontline Fit</h1>
+<div class="promo">
+	<img src="css/images/promo-getfit.png" alt="" class="promo promo-getfit">
+</div>
+<section class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<p class="lead">Front Line Fit offers a number of high level services ranging from 1:1 personal training in the gym,group training outdoors, team building in schools and workplaces, strength and conditioning in the performance centre, dietary &amp; hormonal analysis in the labs. Each one of our trainers at FLF talk the talk and walk the walk, living the same kind of healthy lifestyle we advocate for all of our clients.</p>
 		</div>
 	</div>
-</div>
-<div class="container">
+</section>
+<section class="container">
 	<div class="row">
-		<h2>Choose your course.</h2>
-		{% include _thumbnail.html title="Fit Camp" body=page.fitcamp%}
+		{% include _thumbnail.html title="Fit Camp" body=page.strengthcamp%}
 		{% include _thumbnail.html title="Strength Camp" body=page.strengthcamp%}
 		{% include _thumbnail.html title="Online Training" body=page.strengthcamp%}
 		{% include _thumbnail.html title="Personal Training" body=page.strengthcamp%}
 	</div>
-</div>
+</section>
 <div class="jumbotron">
 	<div class="container">
 		<div class="text-center">
@@ -31,4 +32,9 @@ strengthcamp: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At tenet
 		</div>
 	</div>
 </div>
+<section class="container">
+	{% include _suggestQuestion.html question="Want to work in a group?" linkID=0 yesLink=1 noLink=2 %}
+	{% include _suggestQuestion.html question="Do you want to bulk or trim?" linkID=1 yesLink=3 noLink=4 %}
+</section>
+
 {% include _footer.html %}
