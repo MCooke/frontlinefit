@@ -10,6 +10,7 @@
 		padding: 0;
 		&_header {
 			font-weight: 700;
+			flex: 0 1 100%;
 		}
 	}
 	.table-row_header {
@@ -25,10 +26,13 @@
 .table-row {
 	flex: 1 0 100%;
 	display: flex;
+	&_column{
+		flex-direction: column;
+	}
 }
 
 .table-cell {
-	flex: 0 1 100%;
+	flex: 0 1 40%;
 }
 
 .ie {
