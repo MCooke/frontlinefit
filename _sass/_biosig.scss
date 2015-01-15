@@ -63,6 +63,9 @@ input {
 #bioSigOutput {
 	br {
 		line-height: 3em;
+		> br {
+			display: none;
+		}
 	}
 }
 

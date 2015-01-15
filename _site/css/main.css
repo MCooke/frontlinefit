@@ -5488,6 +5488,8 @@ input {
 
 #bioSigOutput br {
   line-height: 3em; }
+  #bioSigOutput br > br {
+    display: none; }
 
 @media (min-width: 768px) {
   .table .table-cell {
