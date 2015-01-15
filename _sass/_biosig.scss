@@ -60,11 +60,20 @@
 }
 
 
-input {
-	color: $grey800;
+.bioSigAnswers {
+	max-width: 600px;
+	margin: 0 auto;
+	display: block;
+	float: none;
+	input {
+		color: $grey800;
+		width: 300px;
+		display: block;
+		margin-right: 10px;
+	}
 }
 
-#bioSigOutput {
+.bioSigOutput {
 	br {
 		line-height: 3em;
 		> br {

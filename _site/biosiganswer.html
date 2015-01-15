@@ -18,7 +18,8 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="index.html" class="navbar-brand">Frontline Fit</a>
+			<a href="index.html" class="visible-xs navbar-brand"><img src="/frontlinefit/css/images/logoSmall.png" alt=""></a>
+			<a href="index.html" class="hidden-xs"><img src="/frontlinefit/css/images/logoMedium.png" alt=""></a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
@@ -34,11 +35,13 @@
 
 <section class="container">
 
-	<form>
-		<input type="text"><button class="btn do-submitBioSig" type="button">Submit</button>
+	<form class="bioSigAnswers col-xs-12">
+		<p>Enter the code supplied on the email, to reveal the users Biosigniture results.</p>
+		<input id="easyInput" type="text" class="col-xs-12 form-control" placeholder="Add code">
+		<button class="btn do-submitBioSig col-xs-5" type="button">Submit</button>
 	</form>
 
-	<div id="bioSigOutput"></div>
+	<p id="do-bioSigOutput" class="bioSigOutput"></p>
 
 </section>
 

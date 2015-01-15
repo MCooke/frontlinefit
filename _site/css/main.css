@@ -5486,12 +5486,20 @@ section.container {
   padding: 10px;
   border: 1px solid; }
 
-input {
-  color: #424242; }
+.bioSigAnswers {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  float: none; }
+  .bioSigAnswers input {
+    color: #424242;
+    width: 300px;
+    display: block;
+    margin-right: 10px; }
 
-#bioSigOutput br {
+.bioSigOutput br {
   line-height: 3em; }
-  #bioSigOutput br > br {
+  .bioSigOutput br > br {
     display: none; }
 
 @media (min-width: 768px) {
