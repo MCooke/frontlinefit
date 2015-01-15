@@ -5450,7 +5450,8 @@ section.container {
     border: 1px solid;
     padding: 0; }
     .table .table-cell_header {
-      font-weight: 700; }
+      font-weight: 700;
+      flex: 0 1 100%; }
   .table .table-row_header {
     margin-top: 1em;
     font-weight: 700; }
@@ -5461,9 +5462,11 @@ section.container {
 .table-row {
   flex: 1 0 100%;
   display: flex; }
+  .table-row_column {
+    flex-direction: column; }
 
 .table-cell {
-  flex: 0 1 100%; }
+  flex: 0 1 40%; }
 
 .ie .table {
   display: table;
