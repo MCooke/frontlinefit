@@ -5473,6 +5473,9 @@ section.container {
       padding: 10px 0; }
 
 .table-row {
+  -webkit-flex: 1 0 100%;
+  -moz-flex: 0 1 100%;
+  -ms-flex: 0 1 100%;
   flex: 1 0 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -5482,12 +5485,14 @@ section.container {
   margin-bottom: 5px;
   border-bottom: 1px solid rgba(250, 250, 250, 0.1); }
   .table-row_column {
-    -webkit-flex-direction: column;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column; }
     .table-row_column .table-cell {
-      text-align: left; }
+      text-align: left;
+      display: -webkit-flex; }
 
 .table-cell {
   -webkit-flex: 0 1 40%;
