@@ -2,6 +2,7 @@ window.bioSigData = {
 	answers: {
 		a1: {
 			content: "1",
+			sectionContent: "1",
 		},
 		b1: {
 			content: "1",
@@ -11,6 +12,7 @@ window.bioSigData = {
 		},
 		a2: {
 			content: "1",
+			sectionContent: "1",
 		},
 		b2: {
 			content: "1",
@@ -20,6 +22,7 @@ window.bioSigData = {
 		},
 		a3: {
 			content: "2",
+			sectionContent: "1",
 			pairs: {
 				9: ["a8", "b8"]
 			}
@@ -35,6 +38,7 @@ window.bioSigData = {
 		},
 		a4: {
 			content: "2",
+			sectionContent: "1",
 		},
 		b4: {
 			content: "2",
@@ -44,6 +48,7 @@ window.bioSigData = {
 		},
 		a5: {
 			content: "3",
+			sectionContent: "1",
 			pairs: {
 				10: ["a4", "b4", "c4"]
 			}
@@ -62,6 +67,7 @@ window.bioSigData = {
 		},
 		a6: {
 			content: "4",
+			sectionContent: "1",
 			pairs: {
 				10: ["a4", "b4", "c4"]
 			}
@@ -80,6 +86,7 @@ window.bioSigData = {
 		},
 		a7: {
 			content: "3",
+			sectionContent: "1",
 		},
 		b7: {
 			content: "3",
@@ -89,6 +96,7 @@ window.bioSigData = {
 		},
 		a8: {
 			content: "5",
+			sectionContent: "1",
 			pairs: {
 				9: ["a3", "b3"]
 			}
@@ -104,6 +112,7 @@ window.bioSigData = {
 		},
 		a9: {
 			content: "7",
+			sectionContent: "1",
 		},
 		b9: {
 			content: "7",
@@ -113,6 +122,7 @@ window.bioSigData = {
 		},
 		a10: {
 			content: "7",
+			sectionContent: "1",
 		},
 		b10: {
 			content: "7",
@@ -122,6 +132,7 @@ window.bioSigData = {
 		},
 		a11: {
 			content: "8",
+			sectionContent: "1",
 			pairs: {
 				11: ["a4", "b4", "c4"]
 			}
@@ -140,6 +151,7 @@ window.bioSigData = {
 		},
 		a12: {
 			content: "8",
+			sectionContent: "1",
 			pairs: {
 				11: ["a4", "b4", "c4"]
 			}
@@ -158,78 +170,102 @@ window.bioSigData = {
 		},
 		d1: {
 			content: "12",
+			sectionContent: "2",
 			pairs: {
 				15: ["A3", "A4", "A9", "A10", "A11", "A12"]
 			}
 		},
 		d2: {
 			content: "13",
+			sectionContent: "2",
 		},
 		d3: {
 			content: "14",
+			sectionContent: "2",
 		},
 		e1: {
 			content: "0",
+			sectionContent: "3",
 		},
 		e2: {
 			content: "0",
+			sectionContent: "3",
 		},
 		e3: {
 			content: "0",
+			sectionContent: "3",
 		},
 		e4: {
 			content: "0",
+			sectionContent: "3",
 		},
 		e5: {
 			content: "0",
+			sectionContent: "3",
 		},
 		e6: {
 			content: "0",
+			sectionContent: "3",
 		},
 		e7: {
 			content: "0",
+			sectionContent: "3",
 		},
 		f1: {
 			content: "17",
+			sectionContent: "4",
 		},
 		f2: {
 			content: "17",
+			sectionContent: "4",
 		},
 		f3: {
 			content: "17",
+			sectionContent: "4",
 		},
 		f4: {
 			content: "17",
+			sectionContent: "4",
 		},
 		f5: {
 			content: "17",
+			sectionContent: "4",
 		},
 		f6: {
 			content: "17",
+			sectionContent: "4",
 		},
 		f7: {
 			content: "17",
+			sectionContent: "4",
 		},
 		f8: {
 			content: "17",
+			sectionContent: "4",
 		},
 		f9: {
 			content: "16",
+			sectionContent: "4",
 		},
 		ff1: {
 			content: "18",
+			sectionContent: "5",
 		},
 		ff2: {
 			content: "18",
+			sectionContent: "5",
 		},
 		ff3: {
 			content: "19",
+			sectionContent: "5",
 		},
 		ff4: {
 			content: "19",
+			sectionContent: "5",
 		},
 		ff5: {
 			content: "19",
+			sectionContent: "5",
 		},
 		gg1: {
 			content: "20",
@@ -242,12 +278,15 @@ window.bioSigData = {
 		},
 		g1: {
 			content: "21",
+			sectionContent: "6",
 		},
 		g2: {
 			content: "25",
+			sectionContent: "6",
 		},
 		g3: {
 			content: "29",
+			sectionContent: "6",
 		},
 		h1: {
 			content: "23",
@@ -278,18 +317,23 @@ window.bioSigData = {
 		},
 		j1: {
 			content: "33",
+			sectionContent: "7",
 		},
 		j2: {
 			content: "34",
+			sectionContent: "7",
 		},
 		j3: {
 			content: "35",
+			sectionContent: "7",
 		},
 		j4: {
 			content: "36",
+			sectionContent: "7",
 		},
 		k1: {
 			content: "37",
+			sectionContent: "8",
 			pairs: {
 				41: ["o1","o2", "o4", "o5"],
 				42: ["o3"],
@@ -300,6 +344,7 @@ window.bioSigData = {
 		},
 		k2: {
 			content: "38",
+			sectionContent: "8",
 			pairs: {
 				41: ["o1","o2", "o4", "o5"],
 				42: ["o3"],
@@ -310,6 +355,7 @@ window.bioSigData = {
 		},
 		k3: {
 			content: "39",
+			sectionContent: "8",
 			pairs: {
 				41: ["o1","o2", "o4", "o5"],
 				42: ["o3"],
@@ -320,36 +366,47 @@ window.bioSigData = {
 		},
 		k4: {
 			content: "40",
+			sectionContent: "8",
 		},
 		l1: {
 			content: "46",
+			sectionContent: "9",
 		},
 		l2: {
 			content: "47",
+			sectionContent: "9",
 		},
 		l3: {
 			content: "48",
+			sectionContent: "9",
 		},
 		l4: {
 			content: "49",
+			sectionContent: "9",
 		},
 		m1: {
 			content: "50",
+			sectionContent: "10",
 		},
 		m2: {
 			content: "50",
+			sectionContent: "10",
 		},
 		m3: {
-			content: "51"
+			content: "51",
+			sectionContent: "10",
 		},
 		m4: {
 			content: "52",
+			sectionContent: "10",
 		},
 		m5: {
 			content: "52",
+			sectionContent: "10",
 		},
 		m6: {
 			content: "52",
+			sectionContent: "10",
 		},
 		n1: {
 			content: "53",
@@ -461,12 +518,15 @@ window.bioSigData = {
 		},
 		v1: {
 			content: "0",
+			sectionContent: "11",
 		},
 		v2: {
 			content: "63",
+			sectionContent: "11",
 		},
 		v3: {
 			content: "64",
+			sectionContent: "11",
 			pairs: {
 				65: ["a9", "b9", "c9", "a10", "b10", "c10", "a11", "b11", "c11", "a12", "b12", "c12"]
 			}
@@ -500,15 +560,19 @@ window.bioSigData = {
 		},
 		z1: {
 			content: "70",
+			sectionContent: "12",
 		},
 		z2: {
 			content: "71",
+			sectionContent: "12",
 		},
 		z3: {
 			content: "72",
+			sectionContent: "12",
 		},
 		z4: {
 			content: "73",
+			sectionContent: "12",
 		},
 		aa1: {
 			content: "74",
@@ -532,18 +596,23 @@ window.bioSigData = {
 			}
 		},
 		bb1: {
+			sectionContent: "13",
 			content: "77",
 		},
 		bb2: {
+			sectionContent: "13",
 			content: "77",
 		},
 		bb3: {
+			sectionContent: "13",
 			content: "78",
 		},
 		bb4: {
+			sectionContent: "13",
 			content: "79",
 		},
 		bb4: {
+			sectionContent: "13",
 			content: "79",
 		},
 		cc1: {
@@ -563,63 +632,83 @@ window.bioSigData = {
 		},
 		dd1: {
 			content: "82",
+			sectionContent: "14"
 		},
 		dd2: {
 			content: "82",
+			sectionContent: "14"
 		},
 		dd3: {
 			content: "83",
+			sectionContent: "14"
 		},
 		dd4: {
 			content: "84",
+			sectionContent: "14"
 		},
 		dd5: {
 			content: "85",
+			sectionContent: "14"
 		},
 		dd6: {
 			content: "86",
+			sectionContent: "14"
 		},
 		dd7: {
 			content: "87",
+			sectionContent: "14"
 		},
 		dd8: {
 			content: "88",
+			sectionContent: "14"
 		},
 		ll1: {
 			content: "0",
+			sectionContent: "15",
 		},
 		ll2: {
 			content: "0",
+			sectionContent: "15",
 		},
 		llb1: {
 			content: "0",
+			sectionContent: "15",
 		},
 		llb2: {
 			content: "0",
+			sectionContent: "15",
 		},
 		llc1: {
 			content: "0",
+			sectionContent: "15",
 		},
 		llc2: {
 			content: "0",
+			sectionContent: "15",
 		},
 		ee1: {
 			content: "94",
+			sectionContent: "16"
 		},
 		ee2: {
 			content: "95",
+			sectionContent: "16"
 		},
 		ee3: {
-			content: "92"
+			content: "92",
+			sectionContent: "16"
 		},
 		ee4: {
 			content: "94",
+			sectionContent: "16"
 		},
 		ee5: {
 			content: "93",
+			sectionContent: "16"
 		},
 		ee6: {
-			content: ""
+			content: "0",
+			sectionContent: "16"
 		}
 	},
 	content: {
@@ -719,5 +808,23 @@ window.bioSigData = {
 		93: "Since your goal is “to gain a maximum level of general fitness and health” it is crucial to remember we live in a world today where we are exposed to way too many toxins from our environment, some of which were not around 25 years ago. If you add on top of that, that the nutrient value of our food has gone down, and stress has gone up; it does not make a favorable environment for health. Learning what things your body is struggling with, and obtaining optimal nutrient intake through supplementation, it can have huge impacts on your health. It is the basic equation that people have too many bad things coming into the body, and lack the nutritional reserve to deal with them, that leads most people to ill health. BioSignature method allows you to take a proactive approach to optimal health. Hopefully after reading all of what you have read so far you have gathered the relevant information of which applies directly to you as AN INDIVIDUAL! You have to understand this report is based on every single piece of information you have provided to me.",
 		94: "Since your goal is to specifically increase lean muscle mass and or drop body fat percent it is important for you to get your head around the concept of bodybuilding. Very few sports can compete with bodybuilding when it comes to managing hormones. Just look at the effect anabolic steroids have on athletes, turning men into supermen and women into superwomen (and sometimes super women into supermen!!!) - unfortunately these hormonal drugs do have side effects). And just as steroid hormones can build muscle - other hormones can cause unwanted fat stores in your back, legs, hips and, well ... you get the idea. With BioSignature, you can optimize your natural hormone levels. Many athletes lose their own anabolic hormones to stress, estrogen, and aging. Most strength coaches will agree that it is harder to put lean muscle on athletes today than it was 10-20 years ago. Combatting the toxins and hormonal imbalances that exist now is the way we want to restore your muscle building ability. When it comes to leaning out, the BioSignature program will help spot, reduce and optimize fat loss, decreasing the effort to get lean, lose weight, and conserving lean body mass in the process. Hopefully after reading all of what you have read so far you have gathered the relevant information of which applies directly to you as AN INDIVIDUAL! You have to understand this report is based on every single piece of information you have provided to me.",
 		95: "Since your goal is to specifically decrease body fat percent it is important for you to get your head around the concept of the “conditioning side” of bodybuilding. Very few sports can compete with bodybuilding when it comes to managing hormones. Just look at the effect anabolic steroids have on athletes, turning men into supermen and women into superwomen (and sometimes super women into supermen!!!) - unfortunately these hormonal drugs do have side effects). And just as steroid hormones can build muscle - other hormones can cause unwanted fat stores in your back, legs, hips and, well ... you get the idea. With BioSignature, you can optimize your natural hormone levels to drop body fat from those specific areas of which are “priority” sites. Many people lose their own anabolic hormones to stress, estrogen, and aging. Combatting the toxins and hormonal imbalances that exist now is the way we want to restore your ability to burn fat from specific areas. When it comes to leaning out, the BioSignature program will help spot, reduce and optimize fat loss, decreasing the effort to get lean, lose weight, and conserving lean body mass in the process. Hopefully after reading all of what you have read so far you have gathered the relevant information of which applies directly to you as AN INDIVIDUAL! You have to understand this report is based on every single piece of information you have provided to me."
+	},
+	sectionContent: {
+		1: "The BioSignature is designed to assess and create protocols of which include information about the following:<br/>Sleep<br/>Energy Levels<br/>Digestion and Gut health<br/>Toxicity, Detoxification, and Liver Function<br/>Thyroid function<br/>Insulin sensitivity<br/>Androgens (testosterone)<br/>Growth Hormone<br/>Estrogen and Women’s Health<br/>Stress<br/>Training Analysis<br/>Menopausal symptoms<br/>Allergies<br/>Body Composition (Body Fat/Muscle Mass)<br/>As you can see, the software has identified your “Top 3 priority sites” and now it’s my job to analyse why these are your 3 main areas of “body fat accumulation”, and create a plan of action to counter these areas. I will do this by providing you a detailed individualised report specific to the style of training, food recommendation, and supplementation you will be recommended to take on during your time spent on this specific protocol.",
+		2: "Most people are zinc deficient. A simple Zinc Taste Test will determine zinc status. Unfortunately the body has no way of storing zinc, making a daily intake of some zinc necessary. Zinc is involved in over 100 enzymatic reactions and a deficiency is consistent with low testosterone, higher-than-normal body fat composition, and poor concentration.",
+		3: "Many people cannot understand why they are always tired, or are not getting significant muscle and fat loss results from their hard work training. The solution is to achieve adequate stomach acid for digestion in order to break down and absorb essential protein and nutrients (HCL). <br/>Many people think gastric stress is normal. It is not. A strangely common misconception is that Westerners have too much stomach acid. This is rarely true!<br/>A more common problem is having much too little stomach acid for appropriate digestion, which produces gastric stress and can greatly increase your risk of stomach cancer. A serious but common problem is that because low stomach acid leads to impaired digestion, it is often misdiagnosed as having too much stomach acid. This is because when the stomach does not empty correctly, partly digested carbohydrates and proteins that have started to ferment in the stomach will back up into the esophagus—an uncomfortable problem that is interpreted by uninformed individuals and physicians as too much stomach acid.<br/>Side note: Age—your stomach’s ability to produce HCL decreases by about 1 percent every year, meaning that by age 70, your HCL is 70 percent lower than when you were born.<br/>Indirect symptoms of low stomach acid include the lack of results from training, inability to lose fat despite following a fat loss protocol, and always being tired. Symptoms that are directly related to low HCL include the following:<br/>1)    Belching, bloating, or “acid reflux” after eating<br/>2)    Indigestion and constipation because food is not being digested properly<br/>3)    Skin conditions such as acne<br/>4)    Vertical ridging on the nails because of inability to absorb nutrients from food<br/>5)    Leg and foot cramps because you are not absorbing minerals<br/>6)    Chronic injuries due to poor amino acid status and inability to restore tissue<br/>7)    Food allergies and asthma<br/>8)    Gallstones<br/>9)    Poor cognitive function and the onset of dementia<br/>Low bone mineral density and osteoporosis<br/>To do the HCL test, you were told to take HCL using a dose of 200 mg capsules from betaine HCL because betaine is known to stimulate protein synthesis and support athletic performance. The supplement we use is Digest Force and it contains this 200 mg dose of HCL along with pancreatic enzymes to support elevated nutrient absorption.<br/>In the middle of your meals, your were to take one 200 mg dose of HCL. The response you were looking for is a warm sensation in your stomach, like when you have just drank a cup of very hot tea.<br/>At each subsequent meal, you increased the dose of HCL by one capsule until you could feel the warmth in your stomach which according to you was at (INSERT DOSE). The dose that produces a warm sensation indicates the degree of HCL deficiency (low stomach acid) that you have. If you need all seven capsules, you have severely low stomach acid—that is, your body should be producing nearly 1400 mg of HCL on its own, but isn’t. If you need just one capsule, you know your stomach is not producing quite enough acid, and now is the time to prevent a serious problem from developing.<br/>To treat low stomach acid, identify the amount of HCL needed to produce the warm sensation (Which for you is INSERT DOSE), subtract one capsule (200 mg) from that dose and take that amount at every meal.  Smaller meals might require less supplemental HCL and larger meals might require more (NOTE - do not exceed your maximum dose).<br/>Once you start HCL therapy, you should immediately notice changes like a decrease in bloating, belching, and less indigestion. After a time, you will have better results from training particularly if you your diet is optimal. You will also likely find that HCL therapy will improve your sleep because your body is beginning to absorb all the minerals and vitamins it needs, which will affect your hormone and neurotransmitter levels. Not only will you no longer be deficient in nutrients that help with energy and give you stamina, but sleep will be more restorative. The combination will support body composition and fat loss.<br/>Better digestion and absorption of protein and nutrients will support protein synthesis and the development of lean body mass, while helping you avoid deficiencies that can cause poor health and hinder fat loss attempts. ",
+		4: "Some foods are simply more irritating than others and we find that more people are allergic to certain foods than others.<br/>Allergy testing is useful for almost anyone who is looking to optimize health since we may not be aware how much certain foods are affecting us. We recommend the blood test that looks at the IgG and IgE antibodies. An elimination and reintroduction diet is an excellent way to determine allergies but it takes time, discipline and attention to detail. For the mean time we are going to eliminate the majority of foods of which are extremely common causes of intolerance or inflammation. ",
+		5: "This should go without saying, but it is wise to keep a diary of what you eat and how those foods are affecting your digestive health. Some people may find they can eat yogurt without any problems, but not milk. Some people find that eating their salad at the end of a meal helps prevent constipation.",
+		6: "When you are under stress, both physical and psychological, the body secretes cortisol, and one of its primary functions is to convert the amino acids in the muscles into glucose to give the body the extra energy it needs to overcome the stress.",
+		7: "Although cortisol helps you stay alive and survive truly life threatening situations, it can be a real problem for your overall well-being if you are worrying about the small stuff all the time. Aside from managing stress better, a few dietary strategies to reduce chronically elevated cortisol include the following:<br/>1)    Drink Water: Dehydration will significantly elevate cortisol.<br/>2)    Take Magnesium post-workout or after a stressful experience—it has been shown to help clear cortisol.<br/>3)    Avoid caffeine and alcohol during stressful times and especially after training (ideally morning only - black if possible and no sugar - latte or frappuchino DO NOT COUNT).</br>Take a probiotic—this has been shown to decrease chronic stress-induced cortisol.<br/>4)    Always eat breakfast and opt for a high-protein, low-glycemic meal.<br/>Intensity and volume of training—you must train with a near maximal metabolic intensity and perform a large volume<br/>Get adequate sleep, and if rest is a problem, opt for an early-to-bed, early-to-rise sleep schedule<br/>Use a grateful log to lower cortisol. (Added at the back explaining how to use)<br/>Eliminate alcohol, juices, soda, and sports drinks. Stick to water, tea, and coffee. (Green tea is better)<br/>Eliminate ALL sugar and all sweeteners—cane sugar, agave, maple syrup—all of it.<br/>Eat antioxidant-rich foods like berries, dark chocolate, leafy greens, and olive oil to prevent inflammation.<br/>Morning Energy",
+		8: "Mid day energy",
+		9: "Night time energy",
+		10: "Diet Analysis (Water intake/Quality)",
+		11: "Males who are 15% or more and females who are 18% or more<br/>A long-term low carbohydrate diet is the solution for those who are are above 15% body fat in males and 18% or more in females. To begin the diet, eat only meat, fish, eggs, and vegetables (50g of carbs per day or less). Follow this diet for 14 days then have a cheat meal, eat whatever you want within this meal - but read carefully....as soon as your ass leaves that chair...you’re finished! No second portions! You must then return to the ultra low carb diet and have a cheat meal (one sitting) when you genuinely feel you deserve it until you are in tip top shape and you can have cheat meals whenever you like! <br/>P.S not to rub it in, but those who know me, know that I have Haggen daz 5 nights per week...Why?...Because I work my ass off in training. I eat awesome nutritious and clean foods all day, and finally the most important reason - “Because I can!”...I promise you when you are in shape, it is SO easy to stay there... you first just have to make that journey across the river with no slip ups!<br/>Fruit for anyone who is above 15% is a NO GO!<br/>Once you start to become more lean you can add berries to the diet. They are strong antioxidants and low glycaemic.<br/>As you get leaner still you can introduce the Orange family of fruits.<br/>As you get leaner again you can add plums, nectarines, peaches and apples.<br/>4. Then grapes and bananas<br/>5. Then the root vegetables such as yams, and sweet potatoes<br/>6. Then rice, the darker the better<br/>The last food to add is grains, and it should never be added for those that are carb intolerant. (If eating carbs made you fat) OR my calipers tell you it is a bad idea!<br/>A no or low gluten diet is a good thing, it interferes with reaction time. Stick with this diet 80% of the time and you will do fine and will not become stressed out by it. Eat more vegetables. Oh and try not to eat too much peanut butter, even the natural kind; it contains a mould that has phyto-estrogens in it - almond or other nut butters are MUCH better.<br/>If you are lucky enough to receive a cheat meal because you are beyond your target for fat loss and the lead trainer has said so, try and have your cheat meal late in the day instead of early due to the fact that you are likely to keep eating bad the rest of the day if you enjoy your cheat meal at the start of the day -  you will probably become tired and fall to sleep! The best cheat meals will have some nutritional value or cause as little collateral damage as possible.<br/>Look for things with LOW GI content such as 70% chocolate...or my favorite ice cream “vanilla Haggen Daz - with 70% chocolate drops added to the mix, with a small handful of brazil or roasted hazel nuts!” I actually don’t consider this to be such a “bad cheat!”...In fact you could cause more damage eating a white potato by increasing blood sugar levels and over production of insulin!<br/>Estrogen Analysis",
+		12: "Training Analysis",
+		13: "Sleep Analysis",
+		14: "The times you frequently wake up at night can also reflect internal problems that need to be addressed:<br/>Chinese Medicine and other forms of alternative medicine have determined certain times we wake up can mean specific internal problems<br/>Here are the times:<br/>Waking Before 1am= poor blood sugar handling and poor overall quality diet.<br/>Waking Between 1-3am= Poor Liver function,<br/>Waking Between 3-5 AM= Lung Meridian and Oxidative Stress<br/>Waking Between 5-7AM= or right before you are to typically wake up = Sometimes triple warmer and poor thyroid function.<br/>Now these times are not “etched” in stone, but this would be typical for someone who goes to bed between 9pm and 11pm. If you go to bed at other times, the waking patterns will be changed somewhat. <br/>Also, a common thought in Eastern Medicine is that the time between 11pm and 12am is when the body begins the “detoxifying process” and if you “miss” that window of time by staying up late, the process will not occur as effectively that night or will not occur at all. ",
+		15: "Top Tip - A practical step of which I use to help sleep, is to keep a “grateful log.” Before you go to bed, write down in a notebook or diary at least 10 things you are grateful for. Begin every sentence with either “I am grateful for...” or “Thank you for....” This process is very calming, and it helps you look at the world in a positive light before falling asleep. It also prevents your mind from racing all night and enriches the quality of your sleep.<br/>With BioSignature, we can get to the route of most sleep issues: diet, stress, liver toxicity, oxidative stress, and neurotransmitters. Sleep is important for reducing stress and cortisol. There is a direct correlation between sleep quality and obesity. If you want any chance of balancing out your hormones, you must have good sleep.",
+		16: "Goal",
 	}
 }

@@ -28,6 +28,16 @@ var getContent = function( ) {
 		// Save the question so we can check for pairs
 		previousQuestions[ $this ] = true;
 
+		// If we have a section content, then display a start to the header
+		if ( window.bioSigData.answers[ $this ].sectionContent ) {
+			var possibleAnswer = window.bioSigData.sectionContent[ window.bioSigData.answers[ $this ].sectionContent ] + '<br>';
+			// And we haven't said it already
+			if ( answers.indexOf( possibleAnswer ) == -1 && possibleAnswer != "" ) {
+				// Save it to the answers
+				answers.push( possibleAnswer );
+			}
+		}
+
 		// If the current question has some content attached
 		if ( window.bioSigData.answers[ $this ].content ) {
 			var possibleAnswer = window.bioSigData.content[ window.bioSigData.answers[ $this ].content ] + '<br>';
