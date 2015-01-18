@@ -5442,7 +5442,14 @@ section.container {
   left: 0; }
 
 .table {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
   .table input[type=checkbox], .table input[type=radio] {
     display: inline-block;
@@ -5453,6 +5460,9 @@ section.container {
     .table .table-cell_header {
       text-align: left;
       font-weight: 700;
+      -webkit-flex: 0 1 100%;
+      -moz-flex: 0 1 100%;
+      -ms-flex: 0 1 100%;
       flex: 0 1 100%; }
   .table .table-row_header {
     margin-top: 1em;
@@ -5464,15 +5474,25 @@ section.container {
 
 .table-row {
   flex: 1 0 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 5px;
   border-bottom: 1px solid rgba(250, 250, 250, 0.1); }
   .table-row_column {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column; }
     .table-row_column .table-cell {
       text-align: left; }
 
 .table-cell {
+  -webkit-flex: 0 1 40%;
+  -moz-flex: 0 1 40%;
+  -ms-flex: 0 1 40%;
   flex: 0 1 40%; }
 
 .ie .table {
@@ -5492,12 +5512,20 @@ section.container {
   padding: 10px;
   border: 1px solid; }
 
-input {
-  color: #424242; }
+.bioSigAnswers {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  float: none; }
+  .bioSigAnswers input {
+    color: #424242;
+    width: 300px;
+    display: block;
+    margin-right: 10px; }
 
-#bioSigOutput br {
+.bioSigOutput br {
   line-height: 3em; }
-  #bioSigOutput br > br {
+  .bioSigOutput br > br {
     display: none; }
 
 @media (min-width: 768px) {

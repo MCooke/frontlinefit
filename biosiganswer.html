@@ -6,11 +6,13 @@ title: Product Template
 
 <section class="container">
 
-	<form>
-		<input type="text"><button class="btn do-submitBioSig" type="button">Submit</button>
+	<form class="bioSigAnswers col-xs-12">
+		<p>Enter the code supplied on the email, to reveal the users Biosigniture results.</p>
+		<input id="easyInput" type="text" class="col-xs-12 form-control" placeholder="Add code">
+		<button class="btn do-submitBioSig col-xs-5" type="button">Submit</button>
 	</form>
 
-	<div id="bioSigOutput"></div>
+	<p id="do-bioSigOutput" class="bioSigOutput"></p>
 
 </section>
 

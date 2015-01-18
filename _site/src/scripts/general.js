@@ -11,6 +11,8 @@ $( '.do-sendForm' ).on( 'click', function( event ) {
 
 var getContent = function( ) {
 
+	console.log( 'get content' );
+
 	var givenAnswers = $( 'input' ).val().replace(new RegExp("=", "g"), '').split( '&' );
 
 	// We are going to fill these in later
@@ -59,7 +61,7 @@ var getContent = function( ) {
 	}
 
 	$( 'form' ).hide();
-	$( '#bioSigOutput' ).html( answers );
+	$( '#do-bioSigOutput' ).html( answers );
 
 }
 
