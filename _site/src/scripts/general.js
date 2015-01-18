@@ -69,6 +69,6 @@ function sendEmail(){
 	var submitToJames = document.createElement('a');
 	var name = $( 'input[name="name"]' ).val();
 	submitToJames.target = '_blank';
-	submitToJames.href = 'mailto:info@frontlinefit.com?subject=Biosig results from ' + name + '&body=My results where ' + $( 'form' ).serialize();
+	submitToJames.href = 'mailto:info@frontlinefit.com?subject=Biosig results from ' + name + '&body=My results where ' + encodeURIComponent( $( 'form' ).serialize() );
 	submitToJames.click();
 };
