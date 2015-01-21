@@ -28,45 +28,49 @@ var getContent = function( ) {
 		// Save the question so we can check for pairs
 		previousQuestions[ $this ] = true;
 
-		// If we have a section content, then display a start to the header
-		if ( window.bioSigData.answers[ $this ].sectionContent ) {
-			var possibleAnswer = window.bioSigData.sectionContent[ window.bioSigData.answers[ $this ].sectionContent ] + '<br>';
-			// And we haven't said it already
-			if ( answers.indexOf( possibleAnswer ) == -1 && possibleAnswer != "" ) {
-				// Save it to the answers
-				answers.push( possibleAnswer );
+		if ( window.bioSigData.answers[ $this ] ) {
+
+			// If we have a section content, then display a start to the header
+			if ( window.bioSigData.answers[ $this ].sectionContent ) {
+				var possibleAnswer = window.bioSigData.sectionContent[ window.bioSigData.answers[ $this ].sectionContent ] + '<br>';
+				// And we haven't said it already
+				if ( answers.indexOf( possibleAnswer ) == -1 && possibleAnswer != "" ) {
+					// Save it to the answers
+					answers.push( possibleAnswer );
+				}
 			}
+
+			// If the current question has some content attached
+			if ( window.bioSigData.answers[ $this ].content ) {
+				var possibleAnswer = window.bioSigData.content[ window.bioSigData.answers[ $this ].content ] + '<br>';
+				// And we haven't said it already
+				if ( answers.indexOf( possibleAnswer ) == -1 && possibleAnswer != "" ) {
+					// Save it to the answers
+					answers.push( possibleAnswer );
+				}
+			}
+
+			// If we have pairs on the current answer
+			if ( window.bioSigData.answers[ $this ].pairs ) {
+				var groupedPairs = window.bioSigData.answers[ $this ].pairs
+				// Loop over all pair groups possible
+				for ( var pairs in groupedPairs ) {
+					// loop over the inner pairs
+					$.each( window.bioSigData.answers[ $this ].pairs[ pairs ], function( key, value ) {
+						// Get the content for this pair
+						var pairedContent = window.bioSigData.content[ pairs ] + '<br>';
+
+						// Make sure we've had the other pair before
+						// And that we've not put this content in already
+						if ( previousQuestions[value] && answers.indexOf( pairedContent ) == -1 && possibleAnswer != "" ) {
+							// Save it to the answers
+							answers.push( pairedContent );
+						}
+					} );
+				}
+			};
+
 		}
-
-		// If the current question has some content attached
-		if ( window.bioSigData.answers[ $this ].content ) {
-			var possibleAnswer = window.bioSigData.content[ window.bioSigData.answers[ $this ].content ] + '<br>';
-			// And we haven't said it already
-			if ( answers.indexOf( possibleAnswer ) == -1 && possibleAnswer != "" ) {
-				// Save it to the answers
-				answers.push( possibleAnswer );
-			}
-		}
-
-		// If we have pairs on the current answer
-		if ( window.bioSigData.answers[ $this ].pairs ) {
-			var groupedPairs = window.bioSigData.answers[ $this ].pairs
-			// Loop over all pair groups possible
-			for ( var pairs in groupedPairs ) {
-				// loop over the inner pairs
-				$.each( window.bioSigData.answers[ $this ].pairs[ pairs ], function( key, value ) {
-					// Get the content for this pair
-					var pairedContent = window.bioSigData.content[ pairs ] + '<br>';
-
-					// Make sure we've had the other pair before
-					// And that we've not put this content in already
-					if ( previousQuestions[value] && answers.indexOf( pairedContent ) == -1 && possibleAnswer != "" ) {
-						// Save it to the answers
-						answers.push( pairedContent );
-					}
-				} );
-			}
-		};
 
 	}
 
